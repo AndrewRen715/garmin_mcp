@@ -1,0 +1,32 @@
+{
+  "activity_info": {
+    "activity_id": 567608552,
+    "activity_name": "杭州市 跑步",
+    "start_time": null,
+    "activity_type": "未知"
+  },
+  "splits": [
+    {
+      "split": 1,
+      "distance": 21.11318,
+      "time": 118.98393333333334,
+      "pace": 5.63552877081204,
+      "elevation_gain": 88.0,
+      "elevation_loss": 101.0,
+      "avg_hr": 141.0,
+      "max_hr": 148.0,
+      "power": 225.0
+    },
+    {
+      "split": 2,
+      "distance": 21.11318,
+      "time": 118.98356666666668,
+      "pace": 5.6355114040929255,
+      "elevation_gain": 88.0,
+      "elevation_loss": 101.0,
+      "avg_hr": 141.0,
+      "max_hr": 148.0,
+      "power": 225.0
+    }
+  ]
+}

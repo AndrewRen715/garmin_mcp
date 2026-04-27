@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "total_activities": 34,
+    "days_with_data": 30,
+    "date_range": "2026-01-10 to 2026-02-08"
+  },
+  "activity_analysis": {
+    "types": {
+      "running": 18,
+      "strength_training": 11,
+      "track_running": 4,
+      "treadmill_running": 1
+    },
+    "total_duration_seconds": 102330.70556640625,
+    "average_duration_seconds": 3009.726634306066,
+    "average_duration_minutes": 50.16,
+    "activity_days": 22,
+    "activity_frequency": 73.33
+  },
+  "health_analysis": {
+    "resting_heart_rate": {
+      "average": 43.4,
+      "min": 40,
+      "max": 49
+    },
+    "stress_level": {
+      "average": 21.1
+    },
+    "body_battery": {
+      "average": 30.3
+    },
+    "steps": {
+      "average": 16107.0
+    }
+  },
+  "training_load": {
+    "weekly_activities": {
+      "2026-02-02": 10,
+      "2026-01-26": 9,
+      "2026-01-19": 6,
+      "2026-01-12": 6,
+      "2026-01-05": 3
+    },
+    "average_weekly_activities": 6.8
+  },
+  "recovery": {
+    "days_with_data": 30
+  },
+  "recommendations": [
+    {
+      "category": "recovery",
+      "priority": "high",
+      "title": "Prioritize recovery",
+      "description": "Your average body battery is 30.3, which indicates you may be overtraining. Consider reducing training intensity and increasing rest time."
+    }
+  ]
+}

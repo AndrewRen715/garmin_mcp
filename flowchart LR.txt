@@ -1,0 +1,29 @@
+flowchart LR
+    classDef user   fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    classDef access fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    classDef core5g fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef vxlan  stroke:#d32f2f,stroke-width:3px,stroke-dasharray:5 5
+
+    PC[PC<br/>218.75.66.114]:::user 
+    --> CPE[CPE VTEP<br/>内侧:218.75.66.113<br/>Underlay:172.16.0.16<br/>Overlay:192.200.200.2<br/>有线:169.254.254.6]:::user
+
+    %% 5G 上行
+    CPE --> eNodeB[eNodeB]:::access --> UPF[UPF]:::core5g
+
+    %% 有线上行（修正冲突：A-Leaf 使用 .5）
+    CPE --> ONT[ONT]:::access --> OTL[OTL]:::access 
+    --> A_Leaf[A-Leaf<br/>169.254.254.5]:::core5g
+
+    %% 5G 核心路径
+    UPF --> DCFW[DCFW]:::core5g
+    DCFW --> ASBR[ASBR VTEP<br/>Underlay:192.100.100.1<br/>Overlay:192.200.200.1]:::core5g
+
+    %% Spine 汇合
+    ASBR --> Spine[Spine]:::core5g
+    A_Leaf --> Spine
+
+    %% 出口
+    Spine --> CR[CR] --> Internet[Internet]
+
+    %% VXLAN 隧道
+    CPE -. VXLAN<br/>Underlay:172.16.0.16 ↔ 192.100.100.1<br/>Overlay:192.200.200.2 ↔ 192.200.200.1 .-> ASBR:::vxlan

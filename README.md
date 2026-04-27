@@ -69,6 +69,9 @@ Before adding to Claude Desktop, authenticate once in your terminal:
 # Install and run authentication tool
 uvx --python 3.12 --from git+https://github.com/Taxuspt/garmin_mcp garmin-mcp-auth
 
+# For Garmin Connect China users, add --cn flag:
+# uxv --python 3.12 --from git+https://github.com/Taxuspt/garmin_mcp garmin-mcp-auth --cn
+
 # You'll be prompted for:
 # - Email (or set GARMIN_EMAIL env var)
 # - Password (or set GARMIN_PASSWORD env var)
@@ -114,6 +117,10 @@ Add to your Claude Desktop MCP settings **WITHOUT** credentials:
 ```
 
 **Important:** No `GARMIN_EMAIL` or `GARMIN_PASSWORD` needed in config! The server uses your saved tokens.
+
+**For Garmin Connect China users:** If you authenticated with the `--cn` flag, the server will automatically use your saved China region tokens.
+
+**Alternative for China region (without pre-authentication):** If you don't want to pre-authenticate, you can set the `GARMIN_CN` environment variable to `true` along with your credentials.
 
 #### Step 3: Restart Claude Desktop
 

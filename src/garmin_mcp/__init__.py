@@ -78,18 +78,29 @@ elif password_file:
     with open(password_file, "r") as password_file:
         password = password_file.read().rstrip()
 
-tokenstore = os.getenv("GARMINTOKENS") or "~/.garminconnect"
-tokenstore_base64 = os.getenv("GARMINTOKENS_BASE64") or "~/.garminconnect_base64"
+# Default token paths
+default_tokenstore = os.getenv("GARMINTOKENS") or "~/.garminconnect"
+default_tokenstore_base64 = os.getenv("GARMINTOKENS_BASE64") or "~/.garminconnect_base64"
+
+# China region token paths
+cn_tokenstore = os.getenv("GARMINTOKENS_CN") or "~/.garminconnect_cn"
+cn_tokenstore_base64 = os.getenv("GARMINTOKENS_BASE64_CN") or "~/.garminconnect_cn_base64"
+
+is_cn = os.environ.get("GARMIN_CN", "false").lower() == "true"
 
 
-def init_api(email, password):
+def init_api(email, password, is_cn=False):
     """Initialize Garmin API with your credentials."""
     import io
+
+    # Set token paths based on region
+    tokenstore = cn_tokenstore if is_cn else default_tokenstore
+    tokenstore_base64 = cn_tokenstore_base64 if is_cn else default_tokenstore_base64
 
     try:
         # Using Oauth1 and OAuth2 token files from directory
         print(
-            f"Trying to login to Garmin Connect using token data from directory '{tokenstore}'...\n",
+            f"Trying to login to Garmin Connect {'China' if is_cn else 'Global'} using token data from directory '{tokenstore}'...\n",
             file=sys.stderr,
         )
 
@@ -106,7 +117,7 @@ def init_api(email, password):
         sys.stderr = io.StringIO()
 
         try:
-            garmin = Garmin()
+            garmin = Garmin(is_cn=is_cn)
             garmin.login(tokenstore)
         finally:
             sys.stderr = old_stderr
@@ -134,7 +145,7 @@ def init_api(email, password):
         )
         try:
             garmin = Garmin(
-                email=email, password=password, is_cn=False, prompt_mfa=get_mfa
+                email=email, password=password, is_cn=is_cn, prompt_mfa=get_mfa
             )
             garmin.login()
             # Save Oauth1 and Oauth2 token files to directory for next login
@@ -203,7 +214,7 @@ def main():
     """Initialize the MCP server and register all tools"""
 
     # Initialize Garmin client
-    garmin_client = init_api(email, password)
+    garmin_client = init_api(email, password, is_cn)
     if not garmin_client:
         print("Failed to initialize Garmin Connect client. Exiting.", file=sys.stderr)
         return

@@ -1,0 +1,423 @@
+{
+  "target_race": "梦想小镇马拉松",
+  "target_date": "2026-03-29",
+  "target_time": "1:35:00",
+  "start_date": "2026-02-09",
+  "end_date": "2026-03-26",
+  "workouts": [
+    {
+      "date": "2026-02-09",
+      "day_of_week": "Monday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-02-10",
+      "day_of_week": "Tuesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: "
+    },
+    {
+      "date": "2026-02-11",
+      "day_of_week": "Wednesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-02-12",
+      "day_of_week": "Thursday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: "
+    },
+    {
+      "date": "2026-02-13",
+      "day_of_week": "Friday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: "
+    },
+    {
+      "date": "2026-02-14",
+      "day_of_week": "Saturday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: "
+    },
+    {
+      "date": "2026-02-15",
+      "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 10,
+      "duration": "60-70分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 10公里，保持稳定配速"
+    },
+    {
+      "date": "2026-02-16",
+      "day_of_week": "Monday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-02-17",
+      "day_of_week": "Tuesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: "
+    },
+    {
+      "date": "2026-02-18",
+      "day_of_week": "Wednesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-02-19",
+      "day_of_week": "Thursday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: "
+    },
+    {
+      "date": "2026-02-20",
+      "day_of_week": "Friday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: "
+    },
+    {
+      "date": "2026-02-21",
+      "day_of_week": "Saturday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: "
+    },
+    {
+      "date": "2026-02-22",
+      "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 12,
+      "duration": "72-84分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 12公里，保持稳定配速"
+    },
+    {
+      "date": "2026-02-23",
+      "day_of_week": "Monday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-02-24",
+      "day_of_week": "Tuesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: "
+    },
+    {
+      "date": "2026-02-25",
+      "day_of_week": "Wednesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-02-26",
+      "day_of_week": "Thursday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: "
+    },
+    {
+      "date": "2026-02-27",
+      "day_of_week": "Friday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: "
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: "
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 15,
+      "duration": "90-105分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 15公里，保持稳定配速"
+    },
+    {
+      "date": "2026-03-02",
+      "day_of_week": "Monday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-03",
+      "day_of_week": "Tuesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: "
+    },
+    {
+      "date": "2026-03-04",
+      "day_of_week": "Wednesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-05",
+      "day_of_week": "Thursday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: "
+    },
+    {
+      "date": "2026-03-06",
+      "day_of_week": "Friday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: "
+    },
+    {
+      "date": "2026-03-07",
+      "day_of_week": "Saturday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: "
+    },
+    {
+      "date": "2026-03-08",
+      "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 18,
+      "duration": "108-126分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 18公里，保持稳定配速"
+    },
+    {
+      "date": "2026-03-09",
+      "day_of_week": "Monday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-10",
+      "day_of_week": "Tuesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: "
+    },
+    {
+      "date": "2026-03-11",
+      "day_of_week": "Wednesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-12",
+      "day_of_week": "Thursday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: "
+    },
+    {
+      "date": "2026-03-13",
+      "day_of_week": "Friday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: "
+    },
+    {
+      "date": "2026-03-14",
+      "day_of_week": "Saturday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: "
+    },
+    {
+      "date": "2026-03-15",
+      "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 20,
+      "duration": "120-140分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 20公里，保持稳定配速"
+    },
+    {
+      "date": "2026-03-16",
+      "day_of_week": "Monday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-17",
+      "day_of_week": "Tuesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: "
+    },
+    {
+      "date": "2026-03-18",
+      "day_of_week": "Wednesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-19",
+      "day_of_week": "Thursday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: "
+    },
+    {
+      "date": "2026-03-20",
+      "day_of_week": "Friday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: "
+    },
+    {
+      "date": "2026-03-21",
+      "day_of_week": "Saturday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: "
+    },
+    {
+      "date": "2026-03-22",
+      "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 22,
+      "duration": "132-154分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 22公里，保持稳定配速"
+    },
+    {
+      "date": "2026-03-23",
+      "day_of_week": "Monday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-24",
+      "day_of_week": "Tuesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: "
+    },
+    {
+      "date": "2026-03-25",
+      "day_of_week": "Wednesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: "
+    },
+    {
+      "date": "2026-03-29",
+      "day_of_week": "Sunday",
+      "type": "race",
+      "distance": 42.195,
+      "duration": "1:35:00",
+      "pace": "目标配速：2:16/公里",
+      "description": "梦想小镇马拉松比赛日"
+    }
+  ]
+}

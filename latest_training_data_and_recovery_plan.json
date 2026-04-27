@@ -1,0 +1,627 @@
+{
+  "timestamp": "2026-04-09T09:33:02.313430",
+  "training_data": {
+    "activities": {
+      "count": 20,
+      "activities": [
+        {
+          "id": 22460437688,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-04-08 18:50:01",
+          "distance_meters": 7004.69,
+          "duration_seconds": 2401.7270000000003,
+          "calories": 440.0,
+          "avg_hr_bpm": 149.3960849645981,
+          "max_hr_bpm": 164.0
+        },
+        {
+          "id": 22447249878,
+          "name": "室内攀岩",
+          "type": "indoor_climbing",
+          "start_time": "2026-04-03 19:48:35",
+          "duration_seconds": 5045.31005859375,
+          "calories": 386.0,
+          "avg_hr_bpm": 100.0,
+          "max_hr_bpm": 148.0,
+          "steps": 1838
+        },
+        {
+          "id": 22334033703,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-29 08:02:34",
+          "distance_meters": 21221.189453125,
+          "duration_seconds": 6210.6611328125,
+          "calories": 1277.0,
+          "avg_hr_bpm": 163.0,
+          "max_hr_bpm": 173.0,
+          "steps": 40
+        },
+        {
+          "id": 22334033603,
+          "name": "抱石",
+          "type": "bouldering",
+          "start_time": "2026-03-27 15:11:18",
+          "duration_seconds": 9289.6142578125,
+          "calories": 545.0,
+          "avg_hr_bpm": 87.0,
+          "max_hr_bpm": 133.0,
+          "steps": 1174
+        },
+        {
+          "id": 22334033532,
+          "name": "室内攀岩",
+          "type": "indoor_climbing",
+          "start_time": "2026-03-27 14:44:38",
+          "duration_seconds": 1359.0780029296875,
+          "calories": 91.0,
+          "avg_hr_bpm": 89.0,
+          "max_hr_bpm": 126.0,
+          "steps": 562
+        },
+        {
+          "id": 22311847176,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-26 19:11:06",
+          "distance_meters": 2150.0,
+          "duration_seconds": 657.293,
+          "calories": 125.0,
+          "avg_hr_bpm": 146.41856925418568,
+          "max_hr_bpm": 166.0
+        },
+        {
+          "id": 22439837907,
+          "name": "杭州市 操场跑步",
+          "type": "track_running",
+          "start_time": "2026-03-26 19:11:06",
+          "distance_meters": 2150.0,
+          "duration_seconds": 657.2930297851562,
+          "calories": 124.0,
+          "avg_hr_bpm": 146.0,
+          "max_hr_bpm": 166.0,
+          "steps": 1824
+        },
+        {
+          "id": 22311847292,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-26 18:37:38",
+          "distance_meters": 4008.42,
+          "duration_seconds": 1378.472,
+          "calories": 236.0,
+          "avg_hr_bpm": 133.2380261248186,
+          "max_hr_bpm": 149.0
+        },
+        {
+          "id": 22301304629,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-25 20:23:59",
+          "distance_meters": 8511.8,
+          "duration_seconds": 2883.249,
+          "calories": 520.0,
+          "avg_hr_bpm": 143.05653832813042,
+          "max_hr_bpm": 153.0
+        },
+        {
+          "id": 22254918145,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-22 06:39:21",
+          "distance_meters": 21195.0390625,
+          "duration_seconds": 6312.77783203125,
+          "calories": 1271.0,
+          "avg_hr_bpm": 161.0,
+          "max_hr_bpm": 172.0,
+          "steps": 18856
+        },
+        {
+          "id": 22225948814,
+          "name": "杭州市 操场跑步",
+          "type": "track_running",
+          "start_time": "2026-03-19 19:13:08",
+          "distance_meters": 5710.0,
+          "duration_seconds": 2074.052978515625,
+          "calories": 367.0,
+          "avg_hr_bpm": 146.0,
+          "max_hr_bpm": 162.0,
+          "steps": 5190
+        },
+        {
+          "id": 22225949267,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-19 18:36:55",
+          "distance_meters": 3004.739990234375,
+          "duration_seconds": 1050.35400390625,
+          "calories": 184.0,
+          "avg_hr_bpm": 141.0,
+          "max_hr_bpm": 150.0,
+          "steps": 2982
+        },
+        {
+          "id": 22202673021,
+          "name": "抱石",
+          "type": "bouldering",
+          "start_time": "2026-03-17 18:49:06",
+          "duration_seconds": 6423.28076171875,
+          "calories": 505.0,
+          "avg_hr_bpm": 102.0,
+          "max_hr_bpm": 141.0,
+          "steps": 1156
+        },
+        {
+          "id": 22187700614,
+          "name": "杭州市 越野跑",
+          "type": "trail_running",
+          "start_time": "2026-03-15 08:00:46",
+          "distance_meters": 30246.349609375,
+          "duration_seconds": 24532.150390625,
+          "calories": 2799.0,
+          "avg_hr_bpm": 142.0,
+          "max_hr_bpm": 165.0,
+          "steps": 40782
+        },
+        {
+          "id": 22187758857,
+          "name": "室内攀岩",
+          "type": "indoor_climbing",
+          "start_time": "2026-03-14 12:46:32",
+          "duration_seconds": 7926.81298828125,
+          "calories": 603.0,
+          "avg_hr_bpm": 100.0,
+          "max_hr_bpm": 142.0,
+          "steps": 1206
+        },
+        {
+          "id": 22145214015,
+          "name": "抱石",
+          "type": "bouldering",
+          "start_time": "2026-03-11 17:56:29",
+          "duration_seconds": 11351.52734375,
+          "calories": 890.0,
+          "avg_hr_bpm": 105.0,
+          "max_hr_bpm": 147.0,
+          "steps": 1700
+        },
+        {
+          "id": 22118455212,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-09 21:01:47",
+          "distance_meters": 10003.4296875,
+          "duration_seconds": 3486.737060546875,
+          "calories": 624.0,
+          "avg_hr_bpm": 145.0,
+          "max_hr_bpm": 158.0,
+          "steps": 9826
+        },
+        {
+          "id": 22110084902,
+          "name": "杭州市 跑步",
+          "type": "running",
+          "start_time": "2026-03-08 20:56:34",
+          "distance_meters": 15503.509765625,
+          "duration_seconds": 5486.6630859375,
+          "calories": 967.0,
+          "avg_hr_bpm": 145.0,
+          "max_hr_bpm": 152.0,
+          "steps": 15454
+        },
+        {
+          "id": 22110095102,
+          "name": "室内攀岩",
+          "type": "indoor_climbing",
+          "start_time": "2026-03-07 13:42:12",
+          "duration_seconds": 6272.18505859375,
+          "calories": 533.0,
+          "avg_hr_bpm": 106.0,
+          "max_hr_bpm": 140.0,
+          "steps": 938
+        },
+        {
+          "id": 22077742092,
+          "name": "力量训练",
+          "type": "strength_training",
+          "start_time": "2026-03-06 13:02:44",
+          "distance_meters": 0.0,
+          "duration_seconds": 2119.239013671875,
+          "calories": 91.0,
+          "avg_hr_bpm": 76.0,
+          "max_hr_bpm": 106.0,
+          "steps": 232
+        }
+      ]
+    },
+    "health_data": {
+      "date_range": "2026-04-02 to 2026-04-09",
+      "body_battery": [
+        {
+          "date": "2026-04-02",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775088000001,
+              null
+            ],
+            [
+              1775088000002,
+              null
+            ],
+            [
+              1775088000003,
+              null
+            ],
+            [
+              1775088000004,
+              null
+            ],
+            [
+              1775088000005,
+              null
+            ],
+            [
+              1775088000006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        },
+        {
+          "date": "2026-04-03",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775174400001,
+              null
+            ],
+            [
+              1775174400002,
+              null
+            ],
+            [
+              1775174400003,
+              null
+            ],
+            [
+              1775174400004,
+              null
+            ],
+            [
+              1775174400005,
+              null
+            ],
+            [
+              1775174400006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        },
+        {
+          "date": "2026-04-04",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775260800001,
+              null
+            ],
+            [
+              1775260800002,
+              null
+            ],
+            [
+              1775260800003,
+              null
+            ],
+            [
+              1775260800004,
+              null
+            ],
+            [
+              1775260800005,
+              null
+            ],
+            [
+              1775260800006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        },
+        {
+          "date": "2026-04-05",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775347200001,
+              null
+            ],
+            [
+              1775347200002,
+              null
+            ],
+            [
+              1775347200003,
+              null
+            ],
+            [
+              1775347200004,
+              null
+            ],
+            [
+              1775347200005,
+              null
+            ],
+            [
+              1775347200006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        },
+        {
+          "date": "2026-04-06",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775433600001,
+              null
+            ],
+            [
+              1775433600002,
+              null
+            ],
+            [
+              1775433600003,
+              null
+            ],
+            [
+              1775433600004,
+              null
+            ],
+            [
+              1775433600005,
+              null
+            ],
+            [
+              1775433600006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        },
+        {
+          "date": "2026-04-07",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775520000001,
+              null
+            ],
+            [
+              1775520000002,
+              null
+            ],
+            [
+              1775520000003,
+              null
+            ],
+            [
+              1775520000004,
+              null
+            ],
+            [
+              1775520000005,
+              null
+            ],
+            [
+              1775520000006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        },
+        {
+          "date": "2026-04-08",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775606400001,
+              null
+            ],
+            [
+              1775606400002,
+              null
+            ],
+            [
+              1775606400003,
+              null
+            ],
+            [
+              1775606400004,
+              null
+            ],
+            [
+              1775606400005,
+              null
+            ],
+            [
+              1775606400006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        },
+        {
+          "date": "2026-04-09",
+          "charged": null,
+          "drained": null,
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "bodyBatteryValuesArray": [
+            [
+              1775692800001,
+              null
+            ],
+            [
+              1775692800002,
+              null
+            ],
+            [
+              1775692800003,
+              null
+            ],
+            [
+              1775692800004,
+              null
+            ],
+            [
+              1775692800005,
+              null
+            ],
+            [
+              1775692800006,
+              null
+            ]
+          ],
+          "bodyBatteryValueDescriptorDTOList": null
+        }
+      ],
+      "sleep": [
+        {
+          "dailySleepDTO": {
+            "id": null,
+            "userProfilePK": 80499572,
+            "calendarDate": "2026-04-09",
+            "sleepTimeSeconds": null,
+            "napTimeSeconds": null,
+            "sleepWindowConfirmed": null,
+            "sleepWindowConfirmationType": null,
+            "sleepStartTimestampGMT": null,
+            "sleepEndTimestampGMT": null,
+            "sleepStartTimestampLocal": null,
+            "sleepEndTimestampLocal": null,
+            "autoSleepStartTimestampGMT": null,
+            "autoSleepEndTimestampGMT": null,
+            "sleepQualityTypePK": null,
+            "sleepResultTypePK": null,
+            "unmeasurableSleepSeconds": null,
+            "deepSleepSeconds": null,
+            "lightSleepSeconds": null,
+            "remSleepSeconds": null,
+            "awakeSleepSeconds": null,
+            "deviceRemCapable": false,
+            "retro": false
+          },
+          "sleepMovement": [],
+          "remSleepData": null,
+          "sleepLevels": []
+        }
+      ],
+      "heart_rate": [
+        {
+          "userProfilePK": 80499572,
+          "calendarDate": "2026-04-09",
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "maxHeartRate": null,
+          "minHeartRate": null,
+          "restingHeartRate": null,
+          "lastSevenDaysAvgRestingHeartRate": null,
+          "heartRateValueDescriptors": null,
+          "heartRateValues": null
+        }
+      ],
+      "stress": [
+        {
+          "userProfilePK": 80499572,
+          "calendarDate": "2026-04-09",
+          "startTimestampGMT": null,
+          "endTimestampGMT": null,
+          "startTimestampLocal": null,
+          "endTimestampLocal": null,
+          "maxStressLevel": null,
+          "avgStressLevel": null,
+          "stressChartValueOffset": null,
+          "stressChartYAxisOrigin": null,
+          "stressValueDescriptorsDTOList": [],
+          "stressValuesArray": []
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "recovery_score": 40,
+    "sleep_quality": "中等",
+    "body_battery_status": "偏低",
+    "stress_level": "中等",
+    "recommendations": [
+      "您的恢复状态一般，建议进行低强度训练。",
+      "建议：可以安排一次非常轻松的恢复跑或交叉训练。",
+      "注意：您的身体电量偏低，建议增加休息时间。"
+    ]
+  },
+  "recovery_plan": {
+    "recovery_score": 40,
+    "recovery_level": "部分恢复",
+    "next_training": [
+      {
+        "date": "2026-04-10",
+        "type": "低强度训练",
+        "description": "非常轻松的恢复跑或步行，时长30分钟"
+      },
+      {
+        "date": "2026-04-11",
+        "type": "休息",
+        "description": "完全休息或进行轻度伸展"
+      }
+    ],
+    "recovery_strategies": [
+      "保证充足的睡眠（每晚7-9小时）",
+      "保持充足的水分摄入",
+      "摄入足够的蛋白质和营养物质"
+    ]
+  }
+}

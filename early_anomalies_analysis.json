@@ -1,0 +1,360 @@
+{
+  "analysis_date": "2026-03-09T17:15:04.703350",
+  "total_analyzed": 5,
+  "results": [
+    {
+      "success": true,
+      "activity_id": 9277908860,
+      "activity_name": "杭州市 跑步",
+      "date": "2022-07-26",
+      "max_hr": 211.0,
+      "max_hr_split": 4,
+      "previous_split_avg_hr": 156.0,
+      "total_splits": 11,
+      "split_data": [
+        {
+          "lap_number": 1,
+          "distance_meters": 1000.0,
+          "duration_seconds": 379.118,
+          "avg_hr": 153.0,
+          "max_hr": 156.0
+        },
+        {
+          "lap_number": 2,
+          "distance_meters": 1000.0,
+          "duration_seconds": 390.865,
+          "avg_hr": 155.0,
+          "max_hr": 157.0
+        },
+        {
+          "lap_number": 3,
+          "distance_meters": 1000.0,
+          "duration_seconds": 403.196,
+          "avg_hr": 156.0,
+          "max_hr": 159.0
+        },
+        {
+          "lap_number": 4,
+          "distance_meters": 1000.0,
+          "duration_seconds": 398.182,
+          "avg_hr": 158.0,
+          "max_hr": 211.0
+        },
+        {
+          "lap_number": 5,
+          "distance_meters": 1000.0,
+          "duration_seconds": 393.453,
+          "avg_hr": 156.0,
+          "max_hr": 160.0
+        },
+        {
+          "lap_number": 6,
+          "distance_meters": 1000.0,
+          "duration_seconds": 401.083,
+          "avg_hr": 157.0,
+          "max_hr": 159.0
+        },
+        {
+          "lap_number": 7,
+          "distance_meters": 1000.0,
+          "duration_seconds": 420.908,
+          "avg_hr": 157.0,
+          "max_hr": 161.0
+        },
+        {
+          "lap_number": 8,
+          "distance_meters": 1000.0,
+          "duration_seconds": 403.449,
+          "avg_hr": 156.0,
+          "max_hr": 160.0
+        },
+        {
+          "lap_number": 9,
+          "distance_meters": 1000.0,
+          "duration_seconds": 401.191,
+          "avg_hr": 158.0,
+          "max_hr": 162.0
+        },
+        {
+          "lap_number": 10,
+          "distance_meters": 999.99,
+          "duration_seconds": 408.778,
+          "avg_hr": 159.0,
+          "max_hr": 160.0
+        },
+        {
+          "lap_number": 11,
+          "distance_meters": 11.1,
+          "duration_seconds": 7.019,
+          "avg_hr": 158.0,
+          "max_hr": 158.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "activity_id": 9685372868,
+      "activity_name": "杭州市 跑步",
+      "date": "2022-09-27",
+      "max_hr": 201.0,
+      "max_hr_split": 6,
+      "previous_split_avg_hr": 153.0,
+      "total_splits": 10,
+      "split_data": [
+        {
+          "lap_number": 1,
+          "distance_meters": 1000.0,
+          "duration_seconds": 352.306,
+          "avg_hr": 132.0,
+          "max_hr": 145.0
+        },
+        {
+          "lap_number": 2,
+          "distance_meters": 1000.0,
+          "duration_seconds": 358.003,
+          "avg_hr": 148.0,
+          "max_hr": 151.0
+        },
+        {
+          "lap_number": 3,
+          "distance_meters": 1000.0,
+          "duration_seconds": 370.702,
+          "avg_hr": 147.0,
+          "max_hr": 150.0
+        },
+        {
+          "lap_number": 4,
+          "distance_meters": 1000.0,
+          "duration_seconds": 336.823,
+          "avg_hr": 150.0,
+          "max_hr": 153.0
+        },
+        {
+          "lap_number": 5,
+          "distance_meters": 1000.0,
+          "duration_seconds": 361.519,
+          "avg_hr": 153.0,
+          "max_hr": 160.0
+        },
+        {
+          "lap_number": 6,
+          "distance_meters": 1000.0,
+          "duration_seconds": 376.05,
+          "avg_hr": 158.0,
+          "max_hr": 201.0
+        },
+        {
+          "lap_number": 7,
+          "distance_meters": 1000.0,
+          "duration_seconds": 360.526,
+          "avg_hr": 151.0,
+          "max_hr": 158.0
+        },
+        {
+          "lap_number": 8,
+          "distance_meters": 1000.0,
+          "duration_seconds": 371.813,
+          "avg_hr": 152.0,
+          "max_hr": 156.0
+        },
+        {
+          "lap_number": 9,
+          "distance_meters": 309.92,
+          "duration_seconds": 112.258,
+          "avg_hr": 152.0,
+          "max_hr": 154.0
+        },
+        {
+          "lap_number": 10,
+          "distance_meters": 295.23,
+          "duration_seconds": 111.635,
+          "avg_hr": 150.0,
+          "max_hr": 153.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "activity_id": 10496768080,
+      "activity_name": "杭州市 跑步",
+      "date": "2023-02-12",
+      "max_hr": 230.0,
+      "max_hr_split": 3,
+      "previous_split_avg_hr": 156.0,
+      "total_splits": 6,
+      "split_data": [
+        {
+          "lap_number": 1,
+          "distance_meters": 1000.0,
+          "duration_seconds": 359.862,
+          "avg_hr": 145.0,
+          "max_hr": 157.0
+        },
+        {
+          "lap_number": 2,
+          "distance_meters": 1000.0,
+          "duration_seconds": 362.224,
+          "avg_hr": 156.0,
+          "max_hr": 164.0
+        },
+        {
+          "lap_number": 3,
+          "distance_meters": 1000.0,
+          "duration_seconds": 519.045,
+          "avg_hr": 144.0,
+          "max_hr": 230.0
+        },
+        {
+          "lap_number": 4,
+          "distance_meters": 1000.0,
+          "duration_seconds": 392.6,
+          "avg_hr": 155.0,
+          "max_hr": 163.0
+        },
+        {
+          "lap_number": 5,
+          "distance_meters": 1000.0,
+          "duration_seconds": 401.115,
+          "avg_hr": 152.0,
+          "max_hr": 162.0
+        },
+        {
+          "lap_number": 6,
+          "distance_meters": 842.96,
+          "duration_seconds": 373.809,
+          "avg_hr": 161.0,
+          "max_hr": 230.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "activity_id": 10496768178,
+      "activity_name": "杭州市 跑步",
+      "date": "2023-02-12",
+      "max_hr": 228.0,
+      "max_hr_split": 2,
+      "previous_split_avg_hr": 138.0,
+      "total_splits": 2,
+      "split_data": [
+        {
+          "lap_number": 1,
+          "distance_meters": 1000.0,
+          "duration_seconds": 505.591,
+          "avg_hr": 138.0,
+          "max_hr": 221.0
+        },
+        {
+          "lap_number": 2,
+          "distance_meters": 640.9,
+          "duration_seconds": 287.977,
+          "avg_hr": 150.0,
+          "max_hr": 228.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "activity_id": 11370577668,
+      "activity_name": "杭州市 跑步",
+      "date": "2023-06-18",
+      "max_hr": 230.0,
+      "max_hr_split": 13,
+      "previous_split_avg_hr": 162.0,
+      "total_splits": 13,
+      "split_data": [
+        {
+          "lap_number": 1,
+          "distance_meters": 1000.0,
+          "duration_seconds": 379.974,
+          "avg_hr": 132.0,
+          "max_hr": 148.0
+        },
+        {
+          "lap_number": 2,
+          "distance_meters": 1000.0,
+          "duration_seconds": 382.375,
+          "avg_hr": 149.0,
+          "max_hr": 155.0
+        },
+        {
+          "lap_number": 3,
+          "distance_meters": 1000.0,
+          "duration_seconds": 358.326,
+          "avg_hr": 152.0,
+          "max_hr": 156.0
+        },
+        {
+          "lap_number": 4,
+          "distance_meters": 1000.0,
+          "duration_seconds": 379.247,
+          "avg_hr": 154.0,
+          "max_hr": 159.0
+        },
+        {
+          "lap_number": 5,
+          "distance_meters": 1000.0,
+          "duration_seconds": 319.013,
+          "avg_hr": 156.0,
+          "max_hr": 159.0
+        },
+        {
+          "lap_number": 6,
+          "distance_meters": 1000.0,
+          "duration_seconds": 378.668,
+          "avg_hr": 159.0,
+          "max_hr": 162.0
+        },
+        {
+          "lap_number": 7,
+          "distance_meters": 1000.0,
+          "duration_seconds": 326.728,
+          "avg_hr": 159.0,
+          "max_hr": 163.0
+        },
+        {
+          "lap_number": 8,
+          "distance_meters": 1000.0,
+          "duration_seconds": 358.778,
+          "avg_hr": 164.0,
+          "max_hr": 168.0
+        },
+        {
+          "lap_number": 9,
+          "distance_meters": 1000.0,
+          "duration_seconds": 441.403,
+          "avg_hr": 165.0,
+          "max_hr": 170.0
+        },
+        {
+          "lap_number": 10,
+          "distance_meters": 1000.0,
+          "duration_seconds": 326.19,
+          "avg_hr": 159.0,
+          "max_hr": 165.0
+        },
+        {
+          "lap_number": 11,
+          "distance_meters": 1000.0,
+          "duration_seconds": 360.033,
+          "avg_hr": 161.0,
+          "max_hr": 163.0
+        },
+        {
+          "lap_number": 12,
+          "distance_meters": 558.12,
+          "duration_seconds": 228.402,
+          "avg_hr": 162.0,
+          "max_hr": 224.0
+        },
+        {
+          "lap_number": 13,
+          "distance_meters": 5.93,
+          "duration_seconds": 4.607,
+          "avg_hr": 230.0,
+          "max_hr": 230.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date_range": {
+    "start": "2025-08-13",
+    "end": "2026-02-09"
+  },
+  "best_marathon": {
+    "name": "南京市 - Nanjing Marathon",
+    "date": "2025-11-16 07:48:24",
+    "distance": 42.58687890625,
+    "time": 13165.0,
+    "formatted_time": "3:39:25",
+    "average_hr": 154.03896695784277
+  },
+  "best_half_marathon": {
+    "name": "杭州市 跑步",
+    "date": "2025-10-19 07:31:12",
+    "distance": 21.28,
+    "time": 6103.703125,
+    "formatted_time": "1:41:43",
+    "average_hr": 158.0
+  }
+}

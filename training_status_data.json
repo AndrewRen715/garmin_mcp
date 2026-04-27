@@ -1,0 +1,19 @@
+{
+  "training_readiness": {
+    "date": "2026-04-14",
+    "resting_heart_rate_bpm": 44,
+    "min_heart_rate_bpm": 42,
+    "max_heart_rate_bpm": 153,
+    "average_stress_level": 20,
+    "max_stress_level": 90,
+    "stress_qualifier": "CALM",
+    "body_battery_current": 27,
+    "body_battery_highest": 90,
+    "body_battery_lowest": 21,
+    "total_steps": 20714,
+    "daily_step_goal": 13860,
+    "active_seconds": 4150,
+    "sedentary_seconds": 48570,
+    "sleeping_seconds": 24348
+  }
+}

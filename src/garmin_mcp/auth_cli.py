@@ -76,7 +76,7 @@ def get_credentials() -> tuple[str, str]:
     return email, password
 
 
-def authenticate(token_path: str, token_base64_path: str, force_reauth: bool = False) -> bool:
+def authenticate(token_path: str, token_base64_path: str, force_reauth: bool = False, is_cn: bool = False) -> bool:
     """Authenticate with Garmin Connect and save tokens.
 
     Args:
@@ -122,7 +122,7 @@ def authenticate(token_path: str, token_base64_path: str, force_reauth: bool = F
     print(f"Email: {email}")
 
     try:
-        garmin = Garmin(email=email, password=password, is_cn=False, prompt_mfa=get_mfa)
+        garmin = Garmin(email=email, password=password, is_cn=is_cn, prompt_mfa=get_mfa)
         garmin.login()
 
         # Save tokens to directory
@@ -292,6 +292,12 @@ Examples:
         help="Force re-authentication even if valid tokens exist"
     )
 
+    parser.add_argument(
+        "--cn",
+        action="store_true",
+        help="Use Garmin Connect China region instead of global"
+    )
+
     args = parser.parse_args()
 
     # Get token paths
@@ -308,7 +314,7 @@ Examples:
         sys.exit(0 if success else 1)
 
     # Authenticate mode
-    success = authenticate(token_path, token_base64_path, args.force_reauth)
+    success = authenticate(token_path, token_base64_path, args.force_reauth, args.cn)
     sys.exit(0 if success else 1)
 
 

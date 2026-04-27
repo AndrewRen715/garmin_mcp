@@ -1,0 +1,76 @@
+{
+  "total_anomalies": 17,
+  "total_analyzed": 17,
+  "success_count": 0,
+  "analysis_date": "2026-03-09 16:54:23",
+  "results": [
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    },
+    {
+      "success": false,
+      "error": "无法解析心率数据"
+    }
+  ]
+}
