@@ -83,6 +83,7 @@ def authenticate(token_path: str, token_base64_path: str, force_reauth: bool = F
         token_path: Path to save token directory
         token_base64_path: Path to save base64 token file
         force_reauth: Force re-authentication even if tokens exist
+        is_cn: Whether to use Garmin Connect China (default: False)
 
     Returns:
         bool: True if authentication succeeded, False otherwise

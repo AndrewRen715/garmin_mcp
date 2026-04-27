@@ -9,12 +9,14 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from garmin_mcp import init_api
 
-# Set environment variables
-os.environ['GARMIN_CN'] = 'true'
+# Set environment variables if not already set
+if 'GARMIN_CN' not in os.environ:
+    os.environ['GARMIN_CN'] = 'true'
 
 # Initialize Garmin API with empty credentials (will use saved tokens)
 print("Initializing Garmin API...")
-garmin_client = init_api(None, None, is_cn=True)
+is_cn = os.getenv('GARMIN_CN', 'true').lower() == 'true'
+garmin_client = init_api(None, None, is_cn=is_cn)
 
 if not garmin_client:
     print("Error: Failed to initialize Garmin API.")

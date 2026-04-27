@@ -2,6 +2,7 @@
 import json
 import os
 import sys
+import argparse
 from datetime import datetime, timedelta
 
 # Add src directory to Python path
@@ -12,6 +13,16 @@ from garmin_mcp import init_api
 # Set environment variables
 os.environ['GARMIN_CN'] = 'true'
 
+# Parse command line arguments
+parser = argparse.ArgumentParser(description='Create a marathon training plan')
+parser.add_argument('--target-date', type=str, default='2026-03-29',
+                    help='Target marathon date (YYYY-MM-DD format)')
+parser.add_argument('--target-time', type=str, default='1:35:00',
+                    help='Target finish time (HH:MM:SS format)')
+parser.add_argument('--duration', type=int, default=6,
+                    help='Training plan duration in weeks')
+args = parser.parse_args()
+
 # Initialize Garmin API with empty credentials (will use saved tokens)
 print("Initializing Garmin API...")
 garmin_client = init_api(None, None, is_cn=True)
@@ -21,10 +32,10 @@ if not garmin_client:
     sys.exit(1)
 
 # Define training plan parameters
-TARGET_DATE = datetime(2026, 3, 29)  # Marathon date
+TARGET_DATE = datetime.strptime(args.target_date, '%Y-%m-%d')  # Marathon date
 START_DATE = datetime.now()  # Start from today
-PLAN_DURATION = 6  # 6 weeks of training
-TARGET_TIME = "1:35:00"  # Target finish time
+PLAN_DURATION = args.duration  # Training plan duration in weeks
+TARGET_TIME = args.target_time  # Target finish time
 
 print(f"Creating marathon training plan for {TARGET_DATE.strftime('%Y-%m-%d')}")
 print(f"Target finish time: {TARGET_TIME}")

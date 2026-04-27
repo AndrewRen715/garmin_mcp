@@ -40,7 +40,9 @@ def init_garmin_client():
     
     # Try using init_api from garmin_mcp first
     try:
-        garmin_client = init_api(None, None, is_cn=True)
+        import os
+        is_cn = os.getenv('GARMIN_CN', 'true').lower() == 'true'
+        garmin_client = init_api(None, None, is_cn=is_cn)
         print("使用 garmin_mcp 初始化成功")
         return garmin_client
     except Exception as e:
