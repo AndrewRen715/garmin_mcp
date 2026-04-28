@@ -10,29 +10,70 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from garmin_mcp import init_api
 
-# Set environment variables
-os.environ['GARMIN_CN'] = 'true'
+# Default configuration values
+DEFAULT_MARATHON_DATE = '2026-10-01'
+DEFAULT_MARATHON_TIME = '3:30:00'
+DEFAULT_TRAINING_DURATION = 12
+
+# Set environment variables if not already set
+if 'GARMIN_CN' not in os.environ:
+    os.environ['GARMIN_CN'] = 'true'
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Create a marathon training plan')
-parser.add_argument('--target-date', type=str, default='2026-03-29',
+parser.add_argument('--target-date', type=str, default=DEFAULT_MARATHON_DATE,
                     help='Target marathon date (YYYY-MM-DD format)')
-parser.add_argument('--target-time', type=str, default='1:35:00',
+parser.add_argument('--target-time', type=str, default=DEFAULT_MARATHON_TIME,
                     help='Target finish time (HH:MM:SS format)')
-parser.add_argument('--duration', type=int, default=6,
+parser.add_argument('--duration', type=int, default=DEFAULT_TRAINING_DURATION,
                     help='Training plan duration in weeks')
 args = parser.parse_args()
 
+# Validate date format
+try:
+    datetime.strptime(args.target_date, '%Y-%m-%d')
+except ValueError:
+    print(f"错误：目标日期格式无效，应为YYYY-MM-DD格式")
+    sys.exit(1)
+
+# Validate logical correctness
+TARGET_DATE = datetime.strptime(args.target_date, '%Y-%m-%d')
+
+# 1. Target date should not be in the past
+if TARGET_DATE.date() < datetime.now().date():
+    print("错误：目标日期不能早于当前日期")
+    sys.exit(1)
+
+# 2. Training duration should be reasonable (4-20 weeks)
+if not (4 <= args.duration <= 20):
+    print("错误：训练时长应在4-20周之间")
+    sys.exit(1)
+
+# 3. Target time validation (format and range)
+try:
+    # Validate time format
+    datetime.strptime(args.target_time, '%H:%M:%S')
+    
+    # Validate time range (2-6 hours)
+    hours, minutes, seconds = map(int, args.target_time.split(':'))
+    total_seconds = hours * 3600 + minutes * 60 + seconds
+    if not (7200 <= total_seconds <= 21600):  # 2-6 hours
+        print("错误：目标时间应在2-6小时之间")
+        sys.exit(1)
+except ValueError:
+    print("错误：目标时间格式无效，应为HH:MM:SS格式")
+    sys.exit(1)
+
 # Initialize Garmin API with empty credentials (will use saved tokens)
 print("Initializing Garmin API...")
-garmin_client = init_api(None, None, is_cn=True)
+is_cn = os.getenv('GARMIN_CN', 'true').lower() == 'true'
+garmin_client = init_api(None, None, is_cn=is_cn)
 
 if not garmin_client:
     print("Error: Failed to initialize Garmin API.")
     sys.exit(1)
 
 # Define training plan parameters
-TARGET_DATE = datetime.strptime(args.target_date, '%Y-%m-%d')  # Marathon date
 START_DATE = datetime.now()  # Start from today
 PLAN_DURATION = args.duration  # Training plan duration in weeks
 TARGET_TIME = args.target_time  # Target finish time
