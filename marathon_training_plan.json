@@ -1,66 +1,57 @@
 {
   "target_race": "梦想小镇马拉松",
-  "target_date": "2026-03-29",
-  "target_time": "1:35:00",
-  "start_date": "2026-02-09",
-  "end_date": "2026-03-26",
+  "target_date": "2026-10-01",
+  "target_time": "3:30:00",
+  "start_date": "2026-04-28",
+  "end_date": "2026-09-28",
   "workouts": [
     {
-      "date": "2026-02-09",
-      "day_of_week": "Monday",
+      "date": "2026-04-28",
+      "day_of_week": "Tuesday",
       "type": "easy_run",
       "distance": 6,
       "duration": "30-45分钟",
       "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
     },
     {
-      "date": "2026-02-10",
-      "day_of_week": "Tuesday",
+      "date": "2026-04-29",
+      "day_of_week": "Wednesday",
       "type": "tempo_run",
       "distance": 8,
       "duration": "20-30分钟",
-      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
-      "description": "Tempo Run: "
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
     },
     {
-      "date": "2026-02-11",
-      "day_of_week": "Wednesday",
+      "date": "2026-04-30",
+      "day_of_week": "Thursday",
       "type": "easy_run",
       "distance": 6,
       "duration": "30-45分钟",
       "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
     },
     {
-      "date": "2026-02-12",
-      "day_of_week": "Thursday",
+      "date": "2026-05-01",
+      "day_of_week": "Friday",
       "type": "interval_training",
       "distance": 6,
       "duration": "20-30分钟",
       "pace": "间歇跑，高强度",
-      "description": "Interval Training: "
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
     },
     {
-      "date": "2026-02-13",
-      "day_of_week": "Friday",
+      "date": "2026-05-02",
+      "day_of_week": "Saturday",
       "type": "cross_training",
       "distance": 0,
       "duration": "30-45分钟",
       "pace": "游泳、骑行或力量训练",
-      "description": "Cross Training: "
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
     },
     {
-      "date": "2026-02-14",
-      "day_of_week": "Saturday",
-      "type": "rest",
-      "distance": 0,
-      "duration": "0分钟",
-      "pace": "完全休息",
-      "description": "Rest: "
-    },
-    {
-      "date": "2026-02-15",
+      "date": "2026-05-03",
       "day_of_week": "Sunday",
       "type": "long_run",
       "distance": 10,
@@ -69,61 +60,61 @@
       "description": "长距离跑 10公里，保持稳定配速"
     },
     {
-      "date": "2026-02-16",
+      "date": "2026-05-04",
       "day_of_week": "Monday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-02-17",
-      "day_of_week": "Tuesday",
-      "type": "tempo_run",
-      "distance": 8,
-      "duration": "20-30分钟",
-      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
-      "description": "Tempo Run: "
-    },
-    {
-      "date": "2026-02-18",
-      "day_of_week": "Wednesday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-02-19",
-      "day_of_week": "Thursday",
-      "type": "interval_training",
-      "distance": 6,
-      "duration": "20-30分钟",
-      "pace": "间歇跑，高强度",
-      "description": "Interval Training: "
-    },
-    {
-      "date": "2026-02-20",
-      "day_of_week": "Friday",
-      "type": "cross_training",
-      "distance": 0,
-      "duration": "30-45分钟",
-      "pace": "游泳、骑行或力量训练",
-      "description": "Cross Training: "
-    },
-    {
-      "date": "2026-02-21",
-      "day_of_week": "Saturday",
       "type": "rest",
       "distance": 0,
       "duration": "0分钟",
       "pace": "完全休息",
-      "description": "Rest: "
+      "description": "Rest: 充分休息，促进恢复"
     },
     {
-      "date": "2026-02-22",
+      "date": "2026-05-05",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-06",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-05-07",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-08",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-05-09",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-05-10",
       "day_of_week": "Sunday",
       "type": "long_run",
       "distance": 12,
@@ -132,61 +123,61 @@
       "description": "长距离跑 12公里，保持稳定配速"
     },
     {
-      "date": "2026-02-23",
+      "date": "2026-05-11",
       "day_of_week": "Monday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-02-24",
-      "day_of_week": "Tuesday",
-      "type": "tempo_run",
-      "distance": 8,
-      "duration": "20-30分钟",
-      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
-      "description": "Tempo Run: "
-    },
-    {
-      "date": "2026-02-25",
-      "day_of_week": "Wednesday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-02-26",
-      "day_of_week": "Thursday",
-      "type": "interval_training",
-      "distance": 6,
-      "duration": "20-30分钟",
-      "pace": "间歇跑，高强度",
-      "description": "Interval Training: "
-    },
-    {
-      "date": "2026-02-27",
-      "day_of_week": "Friday",
-      "type": "cross_training",
-      "distance": 0,
-      "duration": "30-45分钟",
-      "pace": "游泳、骑行或力量训练",
-      "description": "Cross Training: "
-    },
-    {
-      "date": "2026-02-28",
-      "day_of_week": "Saturday",
       "type": "rest",
       "distance": 0,
       "duration": "0分钟",
       "pace": "完全休息",
-      "description": "Rest: "
+      "description": "Rest: 充分休息，促进恢复"
     },
     {
-      "date": "2026-03-01",
+      "date": "2026-05-12",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-13",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-05-14",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-15",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-05-16",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-05-17",
       "day_of_week": "Sunday",
       "type": "long_run",
       "distance": 15,
@@ -195,61 +186,61 @@
       "description": "长距离跑 15公里，保持稳定配速"
     },
     {
-      "date": "2026-03-02",
+      "date": "2026-05-18",
       "day_of_week": "Monday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-03-03",
-      "day_of_week": "Tuesday",
-      "type": "tempo_run",
-      "distance": 8,
-      "duration": "20-30分钟",
-      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
-      "description": "Tempo Run: "
-    },
-    {
-      "date": "2026-03-04",
-      "day_of_week": "Wednesday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-03-05",
-      "day_of_week": "Thursday",
-      "type": "interval_training",
-      "distance": 6,
-      "duration": "20-30分钟",
-      "pace": "间歇跑，高强度",
-      "description": "Interval Training: "
-    },
-    {
-      "date": "2026-03-06",
-      "day_of_week": "Friday",
-      "type": "cross_training",
-      "distance": 0,
-      "duration": "30-45分钟",
-      "pace": "游泳、骑行或力量训练",
-      "description": "Cross Training: "
-    },
-    {
-      "date": "2026-03-07",
-      "day_of_week": "Saturday",
       "type": "rest",
       "distance": 0,
       "duration": "0分钟",
       "pace": "完全休息",
-      "description": "Rest: "
+      "description": "Rest: 充分休息，促进恢复"
     },
     {
-      "date": "2026-03-08",
+      "date": "2026-05-19",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-20",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-05-21",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-22",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-05-23",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-05-24",
       "day_of_week": "Sunday",
       "type": "long_run",
       "distance": 18,
@@ -258,61 +249,61 @@
       "description": "长距离跑 18公里，保持稳定配速"
     },
     {
-      "date": "2026-03-09",
+      "date": "2026-05-25",
       "day_of_week": "Monday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-03-10",
-      "day_of_week": "Tuesday",
-      "type": "tempo_run",
-      "distance": 8,
-      "duration": "20-30分钟",
-      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
-      "description": "Tempo Run: "
-    },
-    {
-      "date": "2026-03-11",
-      "day_of_week": "Wednesday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-03-12",
-      "day_of_week": "Thursday",
-      "type": "interval_training",
-      "distance": 6,
-      "duration": "20-30分钟",
-      "pace": "间歇跑，高强度",
-      "description": "Interval Training: "
-    },
-    {
-      "date": "2026-03-13",
-      "day_of_week": "Friday",
-      "type": "cross_training",
-      "distance": 0,
-      "duration": "30-45分钟",
-      "pace": "游泳、骑行或力量训练",
-      "description": "Cross Training: "
-    },
-    {
-      "date": "2026-03-14",
-      "day_of_week": "Saturday",
       "type": "rest",
       "distance": 0,
       "duration": "0分钟",
       "pace": "完全休息",
-      "description": "Rest: "
+      "description": "Rest: 充分休息，促进恢复"
     },
     {
-      "date": "2026-03-15",
+      "date": "2026-05-26",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-27",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-05-28",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-05-29",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-05-30",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-05-31",
       "day_of_week": "Sunday",
       "type": "long_run",
       "distance": 20,
@@ -321,61 +312,61 @@
       "description": "长距离跑 20公里，保持稳定配速"
     },
     {
-      "date": "2026-03-16",
+      "date": "2026-06-01",
       "day_of_week": "Monday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-03-17",
-      "day_of_week": "Tuesday",
-      "type": "tempo_run",
-      "distance": 8,
-      "duration": "20-30分钟",
-      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
-      "description": "Tempo Run: "
-    },
-    {
-      "date": "2026-03-18",
-      "day_of_week": "Wednesday",
-      "type": "easy_run",
-      "distance": 6,
-      "duration": "30-45分钟",
-      "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
-    },
-    {
-      "date": "2026-03-19",
-      "day_of_week": "Thursday",
-      "type": "interval_training",
-      "distance": 6,
-      "duration": "20-30分钟",
-      "pace": "间歇跑，高强度",
-      "description": "Interval Training: "
-    },
-    {
-      "date": "2026-03-20",
-      "day_of_week": "Friday",
-      "type": "cross_training",
-      "distance": 0,
-      "duration": "30-45分钟",
-      "pace": "游泳、骑行或力量训练",
-      "description": "Cross Training: "
-    },
-    {
-      "date": "2026-03-21",
-      "day_of_week": "Saturday",
       "type": "rest",
       "distance": 0,
       "duration": "0分钟",
       "pace": "完全休息",
-      "description": "Rest: "
+      "description": "Rest: 充分休息，促进恢复"
     },
     {
-      "date": "2026-03-22",
+      "date": "2026-06-02",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-06-03",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-06-04",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-06-05",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-06-06",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-06-07",
       "day_of_week": "Sunday",
       "type": "long_run",
       "distance": 22,
@@ -384,39 +375,894 @@
       "description": "长距离跑 22公里，保持稳定配速"
     },
     {
-      "date": "2026-03-23",
+      "date": "2026-06-08",
       "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-06-09",
+      "day_of_week": "Tuesday",
       "type": "easy_run",
       "distance": 6,
       "duration": "30-45分钟",
       "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
     },
     {
-      "date": "2026-03-24",
-      "day_of_week": "Tuesday",
+      "date": "2026-06-10",
+      "day_of_week": "Wednesday",
       "type": "tempo_run",
       "distance": 8,
       "duration": "20-30分钟",
-      "pace": " tempo pace，比目标马拉松配速快5-10秒/公里",
-      "description": "Tempo Run: "
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
     },
     {
-      "date": "2026-03-25",
-      "day_of_week": "Wednesday",
+      "date": "2026-06-11",
+      "day_of_week": "Thursday",
       "type": "easy_run",
       "distance": 6,
       "duration": "30-45分钟",
       "pace": "轻松跑，心率在有氧区间",
-      "description": "Easy Run: "
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
     },
     {
-      "date": "2026-03-29",
+      "date": "2026-06-12",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-06-13",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-06-14",
       "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 16,
+      "duration": "96-112分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 16公里，保持稳定配速"
+    },
+    {
+      "date": "2026-06-15",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-06-16",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-06-17",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-06-18",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-06-19",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-06-20",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-06-21",
+      "day_of_week": "Sunday",
+      "type": "long_run",
+      "distance": 10,
+      "duration": "60-70分钟",
+      "pace": "比目标马拉松配速慢10-20秒/公里",
+      "description": "长距离跑 10公里，保持稳定配速"
+    },
+    {
+      "date": "2026-06-22",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-06-23",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-06-24",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-06-25",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-06-26",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-06-27",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-06-29",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-06-30",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-01",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-07-02",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-03",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-07-04",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-07-06",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-07-07",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-08",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-07-09",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-10",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-07-11",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-07-13",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-07-14",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-15",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-07-16",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-17",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-07-18",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-07-20",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-07-21",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-22",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-07-23",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-24",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-07-25",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-07-27",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-07-28",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-29",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-07-30",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-07-31",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-08-01",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-08-03",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-08-04",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-05",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-08-06",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-07",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-08-08",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-08-10",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-08-11",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-12",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-08-13",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-14",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-08-15",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-08-17",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-08-18",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-19",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-08-20",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-21",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-08-22",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-08-24",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-08-25",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-26",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-08-27",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-08-28",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-08-29",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-08-31",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-09-01",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-02",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-09-03",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-04",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-09-05",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-09-07",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-09-08",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-09",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-09-10",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-11",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-09-12",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-09-14",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-09-15",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-16",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-09-17",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-18",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-09-19",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-09-21",
+      "day_of_week": "Monday",
+      "type": "rest",
+      "distance": 0,
+      "duration": "0分钟",
+      "pace": "完全休息",
+      "description": "Rest: 充分休息，促进恢复"
+    },
+    {
+      "date": "2026-09-22",
+      "day_of_week": "Tuesday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-23",
+      "day_of_week": "Wednesday",
+      "type": "tempo_run",
+      "distance": 8,
+      "duration": "20-30分钟",
+      "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+      "description": "Tempo Run: 乳酸阈值训练，提升持续配速能力"
+    },
+    {
+      "date": "2026-09-24",
+      "day_of_week": "Thursday",
+      "type": "easy_run",
+      "distance": 6,
+      "duration": "30-45分钟",
+      "pace": "轻松跑，心率在有氧区间",
+      "description": "Easy Run: 恢复性轻松跑，保持心率在Z1-Z2区间"
+    },
+    {
+      "date": "2026-09-25",
+      "day_of_week": "Friday",
+      "type": "interval_training",
+      "distance": 6,
+      "duration": "20-30分钟",
+      "pace": "间歇跑，高强度",
+      "description": "Interval Training: 短距离高强度间歇，提升最大摄氧量"
+    },
+    {
+      "date": "2026-09-26",
+      "day_of_week": "Saturday",
+      "type": "cross_training",
+      "distance": 0,
+      "duration": "30-45分钟",
+      "pace": "游泳、骑行或力量训练",
+      "description": "Cross Training: 交叉训练，避免过度使用损伤"
+    },
+    {
+      "date": "2026-10-01",
+      "day_of_week": "Thursday",
       "type": "race",
       "distance": 42.195,
-      "duration": "1:35:00",
-      "pace": "目标配速：2:16/公里",
+      "duration": "3:30:00",
+      "pace": "目标配速：4:58/公里",
       "description": "梦想小镇马拉松比赛日"
     }
   ]

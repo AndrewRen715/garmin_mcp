@@ -10,29 +10,73 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from garmin_mcp import init_api
 
-# Set environment variables
-os.environ['GARMIN_CN'] = 'true'
+# Default configuration values
+DEFAULT_MARATHON_DATE = '2026-10-01'
+DEFAULT_MARATHON_TIME = '3:30:00'
+DEFAULT_TRAINING_DURATION = 12
+
+# Set environment variables if not already set
+os.environ.setdefault('GARMIN_CN', 'true')
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Create a marathon training plan')
-parser.add_argument('--target-date', type=str, default='2026-03-29',
+parser.add_argument('--target-date', type=str, default=DEFAULT_MARATHON_DATE,
                     help='Target marathon date (YYYY-MM-DD format)')
-parser.add_argument('--target-time', type=str, default='1:35:00',
+parser.add_argument('--target-time', type=str, default=DEFAULT_MARATHON_TIME,
                     help='Target finish time (HH:MM:SS format)')
-parser.add_argument('--duration', type=int, default=6,
+parser.add_argument('--duration', type=int, default=DEFAULT_TRAINING_DURATION,
                     help='Training plan duration in weeks')
 args = parser.parse_args()
 
+# Validate date format
+try:
+    datetime.strptime(args.target_date, '%Y-%m-%d')
+except ValueError:
+    print(f"错误：目标日期格式无效，应为YYYY-MM-DD格式")
+    sys.exit(1)
+
+# Validate logical correctness
+TARGET_DATE = datetime.strptime(args.target_date, '%Y-%m-%d')
+
+# 1. Target date should not be in the past
+if TARGET_DATE.date() < datetime.now().date():
+    print("错误：目标日期不能早于当前日期")
+    sys.exit(1)
+
+# 2. Training duration should be reasonable (4-20 weeks)
+if not (4 <= args.duration <= 20):
+    print("错误：训练时长应在4-20周之间")
+    sys.exit(1)
+
+# 3. Target time validation (format and range)
+try:
+    # Validate time format
+    datetime.strptime(args.target_time, '%H:%M:%S')
+    
+    # Validate time range (2-6 hours)
+    hours, minutes, seconds = map(int, args.target_time.split(':'))
+    total_seconds = hours * 3600 + minutes * 60 + seconds
+    if not (7200 <= total_seconds <= 21600):  # 2-6 hours
+        print("错误：目标时间应在2-6小时之间")
+        sys.exit(1)
+    
+    # Calculate target pace per km
+    pace_seconds_per_km = total_seconds / 42.195
+    TARGET_PACE = f'{int(pace_seconds_per_km//60)}:{int(pace_seconds_per_km%60):02d}/公里'
+except ValueError:
+    print("错误：目标时间格式无效，应为HH:MM:SS格式")
+    sys.exit(1)
+
 # Initialize Garmin API with empty credentials (will use saved tokens)
 print("Initializing Garmin API...")
-garmin_client = init_api(None, None, is_cn=True)
+is_cn = os.getenv('GARMIN_CN', 'true').lower() == 'true'
+garmin_client = init_api(None, None, is_cn=is_cn)
 
 if not garmin_client:
     print("Error: Failed to initialize Garmin API.")
     sys.exit(1)
 
 # Define training plan parameters
-TARGET_DATE = datetime.strptime(args.target_date, '%Y-%m-%d')  # Marathon date
 START_DATE = datetime.now()  # Start from today
 PLAN_DURATION = args.duration  # Training plan duration in weeks
 TARGET_TIME = args.target_time  # Target finish time
@@ -66,32 +110,38 @@ workout_types = {
     "easy_run": {
         "frequency": 2,  # Twice a week
         "duration": "30-45分钟",
-        "pace": "轻松跑，心率在有氧区间"
+        "pace": "轻松跑，心率在有氧区间",
+        "description": "恢复性轻松跑，保持心率在Z1-Z2区间"
     },
     "tempo_run": {
         "frequency": 1,  # Once a week
         "duration": "20-30分钟",
-        "pace": " tempo pace，比目标马拉松配速快5-10秒/公里"
+        "pace": "tempo pace，比目标马拉松配速快5-10秒/公里",
+        "description": "乳酸阈值训练，提升持续配速能力"
     },
     "interval_training": {
         "frequency": 1,  # Once a week
         "duration": "20-30分钟",
-        "pace": "间歇跑，高强度"
+        "pace": "间歇跑，高强度",
+        "description": "短距离高强度间歇，提升最大摄氧量"
     },
     "long_run": {
         "frequency": 1,  # Once a week (Sundays)
         "duration": "逐渐增加",
-        "pace": "长距离跑，比目标马拉松配速慢10-20秒/公里"
+        "pace": "长距离跑，比目标马拉松配速慢10-20秒/公里",
+        "description": "耐力训练，逐渐增加距离"
     },
     "cross_training": {
         "frequency": 1,  # Once a week
         "duration": "30-45分钟",
-        "pace": "游泳、骑行或力量训练"
+        "pace": "游泳、骑行或力量训练",
+        "description": "交叉训练，避免过度使用损伤"
     },
     "rest": {
         "frequency": 1,  # Once a week
         "duration": "0分钟",
-        "pace": "完全休息"
+        "pace": "完全休息",
+        "description": "充分休息，促进恢复"
     }
 }
 
@@ -153,7 +203,7 @@ for date in training_days:
         "distance": distance,
         "duration": workout_types[workout_type]["duration"],
         "pace": workout_types[workout_type]["pace"],
-        "description": f"{workout_type.replace('_', ' ').title()}: {workout_types[workout_type]['description'] if 'description' in workout_types[workout_type] else ''}"
+        "description": f"{workout_type.replace('_', ' ').title()}: {workout_types[workout_type]['description']}"
     }
     training_plan["workouts"].append(workout)
 
@@ -164,7 +214,7 @@ race_workout = {
     "type": "race",
     "distance": 42.195,
     "duration": TARGET_TIME,
-    "pace": "目标配速：2:16/公里",
+    "pace": f"目标配速：{TARGET_PACE}",
     "description": "梦想小镇马拉松比赛日"
 }
 training_plan["workouts"].append(race_workout)
