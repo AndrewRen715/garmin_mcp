@@ -16,7 +16,12 @@ DEFAULT_MARATHON_TIME = '3:30:00'
 DEFAULT_TRAINING_DURATION = 12
 
 # Set environment variables if not already set
+<<<<<<< HEAD
 os.environ.setdefault('GARMIN_CN', 'true')
+=======
+if 'GARMIN_CN' not in os.environ:
+    os.environ['GARMIN_CN'] = 'true'
+>>>>>>> 8c0f249093bb9dec6531beaf51d2f17c044f83db
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Create a marathon training plan')
@@ -59,10 +64,13 @@ try:
     if not (7200 <= total_seconds <= 21600):  # 2-6 hours
         print("错误：目标时间应在2-6小时之间")
         sys.exit(1)
+<<<<<<< HEAD
     
     # Calculate target pace per km
     pace_seconds_per_km = total_seconds / 42.195
     TARGET_PACE = f'{int(pace_seconds_per_km//60)}:{int(pace_seconds_per_km%60):02d}/公里'
+=======
+>>>>>>> 8c0f249093bb9dec6531beaf51d2f17c044f83db
 except ValueError:
     print("错误：目标时间格式无效，应为HH:MM:SS格式")
     sys.exit(1)
