@@ -12,13 +12,13 @@ sys.path.insert(0, 'src')
 from garminconnect import Garmin
 
 def get_training_data_6weeks():
-    """Get training data for the last 6 weeks from Garmin Connect"""
-    print("Getting training data for the last 6 weeks from Garmin Connect...")
+    """Get training data for the last 90 days (approx 3 months) from Garmin Connect"""
+    print("Getting training data for the last 90 days (approx 3 months) from Garmin Connect...")
     print()
     
-    # Define date range
+    # Define date range - last 90 days (approx 3 months)
     end_date = datetime.datetime.now().date()
-    start_date = datetime.date(2025, 12, 20)
+    start_date = end_date - timedelta(days=90)
     
     print(f"Date range: {start_date} to {end_date}")
     print(f"Total days: {(end_date - start_date).days + 1}")
@@ -29,20 +29,20 @@ def get_training_data_6weeks():
         # Try China region first
         garmin_cn = Garmin(is_cn=True)
         garmin_cn.login("~/.garminconnect")
-        print("✓ China region client initialized (using tokens)")
+        print("OK China region client initialized (using tokens)")
         garmin_client = garmin_cn
         region = "China"
     except Exception as e:
-        print(f"✗ Failed to initialize China region client: {e}")
+        print(f"Failed to initialize China region client: {e}")
         try:
             # Fallback to global region
             garmin_global = Garmin(is_cn=False)
             garmin_global.login("~/.garminconnect")
-            print("✓ Global region client initialized (using tokens)")
+            print("OK Global region client initialized (using tokens)")
             garmin_client = garmin_global
             region = "Global"
         except Exception as e:
-            print(f"✗ Failed to initialize global region client: {e}")
+            print(f"Failed to initialize global region client: {e}")
             return
     
     print(f"\nUsing {region} region for data retrieval...")

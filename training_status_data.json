@@ -1,19 +1,19 @@
 {
   "training_readiness": {
-    "date": "2026-04-26",
-    "resting_heart_rate_bpm": 45,
-    "min_heart_rate_bpm": 43,
-    "max_heart_rate_bpm": 167,
-    "average_stress_level": 18,
-    "max_stress_level": 78,
-    "stress_qualifier": "UNKNOWN",
-    "body_battery_current": 30,
-    "body_battery_highest": 90,
-    "body_battery_lowest": 23,
-    "total_steps": 17657,
-    "daily_step_goal": 15950,
-    "active_seconds": 445,
-    "sedentary_seconds": 43334,
-    "sleeping_seconds": 37004
+    "date": "2026-04-28",
+    "resting_heart_rate_bpm": 43,
+    "min_heart_rate_bpm": 40,
+    "max_heart_rate_bpm": 146,
+    "average_stress_level": 22,
+    "max_stress_level": 93,
+    "stress_qualifier": "BALANCED",
+    "body_battery_current": 47,
+    "body_battery_highest": 97,
+    "body_battery_lowest": 34,
+    "total_steps": 14008,
+    "daily_step_goal": 15650,
+    "active_seconds": 1706,
+    "sedentary_seconds": 50515,
+    "sleeping_seconds": 29578
   }
 }
