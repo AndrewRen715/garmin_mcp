@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Get training data for the last 6 weeks (2025-12-20 to today) from Garmin Connect
+Get training data from Garmin Connect with customizable date range.
+Supports retrieving data for any number of days (default: 90 days / approx 3 months).
 """
 
 import sys
@@ -11,14 +12,21 @@ sys.path.insert(0, 'src')
 
 from garminconnect import Garmin
 
-def get_training_data_6weeks():
-    """Get training data for the last 90 days (approx 3 months) from Garmin Connect"""
-    print("Getting training data for the last 90 days (approx 3 months) from Garmin Connect...")
+def get_training_data(days=90):
+    """Get training data for the specified number of days from Garmin Connect
+    
+    Args:
+        days (int): Number of days to retrieve training data for. Default is 90 days (approx 3 months).
+    
+    Returns:
+        bool: True if data retrieval was successful, False otherwise.
+    """
+    print(f"Getting training data for the last {days} days from Garmin Connect...")
     print()
     
-    # Define date range - last 90 days (approx 3 months)
+    # Define date range
     end_date = datetime.datetime.now().date()
-    start_date = end_date - timedelta(days=90)
+    start_date = end_date - timedelta(days=days)
     
     print(f"Date range: {start_date} to {end_date}")
     print(f"Total days: {(end_date - start_date).days + 1}")
@@ -43,7 +51,7 @@ def get_training_data_6weeks():
             region = "Global"
         except Exception as e:
             print(f"Failed to initialize global region client: {e}")
-            return
+            return False
     
     print(f"\nUsing {region} region for data retrieval...")
     print()
@@ -69,10 +77,10 @@ def get_training_data_6weeks():
         
         if not filtered_activities:
             print("No activities found in the specified date range.")
-            return
+            return False
         
         # Display activities in table format
-        print("Training Data (2025-12-20 to today):")
+        print(f"Training Data ({start_date} to {end_date}):")
         print("=" * 140)
         print(f"{'Date':<12} {'Type':<15} {'Distance':<10} {'Duration':<10} {'Pace':<10} {'Elevation':<10} {'Calories':<10} {'Avg HR':<8} {'Name':<30}")
         print("=" * 140)
@@ -152,4 +160,8 @@ def get_training_data_6weeks():
         traceback.print_exc()
 
 if __name__ == "__main__":
-    get_training_data_6weeks()
+    import argparse
+    parser = argparse.ArgumentParser(description='Get training data from Garmin Connect')
+    parser.add_argument('--days', '-d', type=int, default=90, help='Number of days to retrieve (default: 90)')
+    args = parser.parse_args()
+    get_training_data(args.days)

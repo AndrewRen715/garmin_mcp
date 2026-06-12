@@ -4,27 +4,55 @@
 Hyrox: 8个功能性训练站点 + 8次1公里跑步
 """
 import json
+import argparse
 from datetime import datetime, timedelta
 
-def get_weekday(date_str):
-    """获取日期对应的星期几"""
+RACE_DATE = "2026-07-06"
+RACE_LOCATION = "杭州"
+
+def get_weekday(date_str, lang='zh'):
+    """获取日期对应的星期几
+    
+    Args:
+        date_str (str): 日期字符串，格式为 'YYYY-MM-DD'
+        lang (str): 语言选项，'zh' 为中文，'en' 为英文
+    
+    Returns:
+        str: 星期几
+    """
     date = datetime.strptime(date_str, '%Y-%m-%d')
-    weekdays = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+    weekdays_zh = ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+    weekdays_en = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    weekdays = weekdays_zh if lang == 'zh' else weekdays_en
     return weekdays[date.weekday()]
 
-def create_hyrox_plan():
-    """创建Hyrox比赛训练计划"""
-    today = datetime.now()
-    current_date = today.strftime('%Y-%m-%d')
+def create_hyrox_plan(start_date=None):
+    """创建Hyrox比赛训练计划
+    
+    Args:
+        start_date (str): 训练开始日期，格式为 'YYYY-MM-DD'，默认使用当前日期
+    
+    Returns:
+        dict: 训练计划字典，如果日期格式无效则返回None
+    """
+    try:
+        if start_date:
+            today = datetime.strptime(start_date, '%Y-%m-%d')
+        else:
+            today = datetime.now()
+        current_date = today.strftime('%Y-%m-%d')
+    except ValueError:
+        print(f"错误: 无效的日期格式 '{start_date}'，请使用 YYYY-MM-DD 格式")
+        return None
     
     # 比赛信息
     race_info = {
-        "date": "2026-07-06",
-        "location": "杭州",
+        "date": RACE_DATE,
+        "location": RACE_LOCATION,
         "type": "Hyrox",
         "description": "8个功能性训练站点 + 8次1公里跑步",
-        "weekday": get_weekday("2026-07-06"),
-        "days_until_race": (datetime.strptime("2026-07-06", '%Y-%m-%d') - today).days
+        "weekday": get_weekday(RACE_DATE),
+        "days_until_race": (datetime.strptime(RACE_DATE, '%Y-%m-%d') - today).days
     }
     
     # Hyrox比赛项目
@@ -46,7 +74,7 @@ def create_hyrox_plan():
         "cardio_goal": "1公里跑步配速达到5:00-5:30 min/km",
         "strength_goal": "完成所有功能性站点的标准次数",
         "endurance_goal": "完成全程比赛（约1小时15分钟）",
-        "weekly_training_hours": 8-10
+        "weekly_training_hours": "8-10"
     }
     
     plan = {
@@ -306,7 +334,7 @@ def create_hyrox_plan():
         "week": "第10周",
         "phase": "比赛周",
         "start_date": "2026-07-01",
-        "end_date": "2026-07-06",
+        "end_date": RACE_DATE,
         "focus": "保持放松，准备比赛",
         "weekly_plan": [
             {"date": "2026-07-01", "day": get_weekday("2026-07-01"),
@@ -322,7 +350,7 @@ def create_hyrox_plan():
             {"date": "2026-07-05", "day": get_weekday("2026-07-05"),
              "session1": {"type": "准备", "content": "赛前准备：检查装备、热身练习"},
              "session2": {"type": "心理", "content": "心理准备，可视化比赛"}},
-            {"date": "2026-07-06", "day": get_weekday("2026-07-06"),
+            {"date": RACE_DATE, "day": get_weekday(RACE_DATE),
              "session1": {"type": "比赛", "content": "HYROX杭州站 - 全力以赴！"}}
         ]
     }
@@ -352,15 +380,23 @@ def create_hyrox_plan():
     return plan
 
 def main():
+    parser = argparse.ArgumentParser(description='生成Hyrox杭州站训练计划')
+    parser.add_argument('--start-date', '-s', type=str, default=None,
+                        help='训练开始日期，格式为 YYYY-MM-DD，默认使用当前日期')
+    args = parser.parse_args()
+    
+    plan = create_hyrox_plan(start_date=args.start_date)
+    
+    if plan is None:
+        return
+    
     print("=" * 80)
     print("Hyrox杭州站 - 专项训练计划")
     print("=" * 80)
     print(f"比赛日期: 2026年7月6日")
-    print(f"当前日期: {datetime.now().strftime('%Y-%m-%d')}")
-    print(f"剩余天数: {(datetime.strptime('2026-07-06', '%Y-%m-%d') - datetime.now()).days} 天")
+    print(f"训练开始日期: {plan['current_date']}")
+    print(f"剩余天数: {plan['race_info']['days_until_race']} 天")
     print("=" * 80)
-    
-    plan = create_hyrox_plan()
     
     print("\n" + "=" * 80)
     print("计划概览")

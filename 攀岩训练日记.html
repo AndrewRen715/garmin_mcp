@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧗 攀岩训练日记</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { opacity: 0.9; font-size: 1.1em; }
+        
+        .content { padding: 30px; }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 1.5em;
+            margin: 25px 0 15px;
+            padding-left: 10px;
+            border-left: 4px solid #764ba2;
+        }
+        
+        h3 {
+            color: #4a6785;
+            font-size: 1.3em;
+            margin: 20px 0 12px;
+        }
+        
+        p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            line-height: 1.8;
+            color: #555;
+            padding: 5px 0;
+        }
+        
+        li.completed {
+            color: #27ae60;
+            text-decoration: line-through;
+        }
+        
+        li.pending {
+            color: #f39c12;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .data-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+        
+        .data-table tr:hover td {
+            background: #f8f9fa;
+        }
+        
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        em {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.9em;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        hr.divider {
+            border: none;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ddd, transparent);
+            margin: 25px 0;
+        }
+        
+        pre {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        pre code {
+            background: none;
+            color: inherit;
+            padding: 0;
+        }
+        
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { border-radius: 10px; }
+            .content { padding: 15px; }
+            .data-table th, .data-table td { padding: 8px 10px; font-size: 0.9em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧗 攀岩训练日记</h1>
+            <p>最后更新：2026-05-21 | 数据来源：Garmin Connect + 自我记录</p>
+        </div>
+        <div class="content">
+            <h1>🧗 攀岩训练日记</h1>
+<p><em>最后更新：2026-05-21 | 数据来源：Garmin Connect + 自我记录</em></p>
+<hr class="divider">
+<h2>📊 当前水平</h2>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>项目</th>
+      <th>当前等级</th>
+      <th>目标</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🪨 抱石</td>
+      <td>V1-V2</td>
+      <td>V2-V3</td>
+      <td>顽攀抱石偏难，线路清晰度一般</td>
+    </tr>
+    <tr>
+      <td>🧗 难度</td>
+      <td>5.9-5.10b</td>
+      <td>5.10c-5.11</td>
+      <td>20m 线路 5.9 完攀，5.10b 接近完成</td>
+    </tr>
+  </tbody>
+</table>
+<hr class="divider">
+<h2>🏆 里程碑进度</h2>
+<h3>已完成 ✅</h3>
+<ul>
+  <li class="completed">✓ 抱石 V2 稳定完成 (4 条) — 2026-03-11</li>
+  <li class="completed">✓ 难度 5.9 短线路完成 — 2026-03-14</li>
+  <li class="completed">✓ <strong>抱石 V3 突破</strong> — 蓝色 V3 ✅ (2026-03-17)</li>
+  <li class="completed">✓ <strong>抱石 V3 优化</strong> — 紫色 V3 beta 优化 ✅ (2026-03-17)</li>
+  <li class="completed">✓ <strong>新馆体验</strong> — 顽攀西湖 ✅ (2026-03-27)</li>
+  <li class="completed">✓ <strong>完攀 5.9 长线路</strong> — 20m 线路 ✅ (2026-04-25)</li>
+  <li class="completed">✓ <strong>参加攀岩比赛</strong> — 大悦城开业赛 ✅ (2026-04-25)</li>
+  <li class="completed">✓ <strong>5.9 难度稳定性提升</strong> — 注意节奏和换脚技巧 ✅ (2026-05-11)</li>
+  <li class="completed">✓ <strong>突破 5.10b 黄色</strong> — 中间难点换 beta ✅ (2026-05-15)</li>
+  <li class="completed">✓ <strong>5.10b 黄色完成</strong> — 完整完攀 ✅ (2026-05-16)</li>
+  <li class="completed">✓ <strong>5.10a 橙色完成</strong> — 突破卡点 ✅ (2026-05-16)</li>
+</ul>
+<h3>进行中 🎯</h3>
+<ul>
+  <li class="pending">○ 抱石 V3 — 红色 V3 (挑战中)</li>
+  <li class="pending">○ 尝试 5.10b — 剩余线路</li>
+  <li class="pending">○ 挑战 5.10c 绿色 — 侧拉动作</li>
+  <li class="pending">○ 挑战 5.10d 线路</li>
+</ul>
+<h3>长期目标 (6 个月) 🚀</h3>
+<ul>
+  <li class="pending">○ 抱石 V4-V5</li>
+  <li class="pending">○ 难度 5.11-5.12</li>
+  <li class="pending">○ 户外攀岩体验</li>
+  <li class="pending">○ 参加攀岩比赛</li>
+</ul>
+<hr class="divider">
+<h2>📈 训练记录汇总</h2>
+<h3>统计数据</h3>
+<ul>
+  <li><strong>总训练次数</strong>: 25 次</li>
+  <li><strong>抱石训练</strong>: 6 次 (平均时长 120min)</li>
+  <li><strong>难度训练</strong>: 19 次 (平均时长 110min)</li>
+  <li><strong>平均时长</strong>: 114 分钟</li>
+  <li><strong>总消耗</strong>: \~5900+ kcal</li>
+  <li><strong>最新训练</strong>: 2026-05-20 (难度 @ 待补充)</li>
+</ul>
+<h3>快速概览</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>日期</th>
+      <th>类型</th>
+      <th>时长</th>
+      <th>心率</th>
+      <th>地点</th>
+      <th>关键进展</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>--</td>
+      <td>----------</td>
+      <td>-------</td>
+      <td>------</td>
+      <td>-------</td>
+      <td>----------</td>
+      <td>-------------------------</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>2026-05-23</td>
+      <td>难度</td>
+      <td>170min</td>
+      <td>99.0/159.0</td>
+      <td>???</td>
+      <td>⏳ 待补充</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>2026-05-20</td>
+      <td>难度</td>
+      <td>118min</td>
+      <td>108/160</td>
+      <td>大悦城 Luna</td>
+      <td><strong>5.10b/c 继续挑战中</strong> ⚠️</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>2026-05-18</td>
+      <td>难度</td>
+      <td>110min</td>
+      <td>100/159</td>
+      <td>大悦城 Luna</td>
+      <td><strong>5.10b 蓝色过换脚难点</strong> ⚠️</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>2026-05-16</td>
+      <td>难度</td>
+      <td>143min</td>
+      <td>92/153</td>
+      <td>大悦城 Luna</td>
+      <td><strong>5.10a 橙色、5.10b 黄色优化</strong> ✅</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>2026-05-15</td>
+      <td>难度</td>
+      <td>32min</td>
+      <td>99/149</td>
+      <td>大悦城 Luna</td>
+      <td><strong>5.10b 黄色完成</strong> ✅</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>2026-05-14</td>
+      <td>难度</td>
+      <td>49min</td>
+      <td>110/151</td>
+      <td>大悦城 Luna</td>
+      <td><strong>突破 5.10b 黄色中间难点</strong> ✅</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>2026-05-13</td>
+      <td>难度</td>
+      <td>170min</td>
+      <td>105/156</td>
+      <td>大悦城 Luna</td>
+      <td><strong>挑战 5.10a/b/c</strong> ⚠️</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>2026-05-11</td>
+      <td>难度</td>
+      <td>\~2h</td>
+      <td>--</td>
+      <td>室内攀岩馆</td>
+      <td><strong>5.9 线路稳定完成，节奏控制提升</strong> ✅</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>2026-05-09</td>
+      <td>难度</td>
+      <td>121min</td>
+      <td>103/155</td>
+      <td>室内攀岩馆</td>
+      <td>长时间训练，耐力保持良好</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>2026-05-04</td>
+      <td>难度</td>
+      <td>95min</td>
+      <td>102/156</td>
+      <td>室内攀岩馆</td>
+      <td>恢复训练</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>2026-05-03</td>
+      <td>难度</td>
+      <td>91min</td>
+      <td>97/151</td>
+      <td>室内攀岩馆</td>
+      <td>基础训练</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>2026-05-02</td>
+      <td>难度</td>
+      <td>86min</td>
+      <td>102/161</td>
+      <td>室内攀岩馆</td>
+      <td>恢复训练</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2026-05-01</td>
+      <td>难度</td>
+      <td>192min</td>
+      <td>101/154</td>
+      <td>室内攀岩馆</td>
+      <td>长时间训练，耐力锻炼</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>2026-04-25</td>
+      <td>难度</td>
+      <td>114min</td>
+      <td>97/162</td>
+      <td>大悦城 Luna</td>
+      <td><strong>完攀 5.9 长线路，参加比赛</strong> ✅</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>2026-04-22</td>
+      <td>抱石</td>
+      <td>161min</td>
+      <td>77/128</td>
+      <td>Golink 抱石馆</td>
+      <td>V2 完成良好，V3 有挑战</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>2026-04-18</td>
+      <td>难度</td>
+      <td>72min</td>
+      <td>109/154</td>
+      <td>大悦城 Luna</td>
+      <td>15-17m 线路尝试</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>2026-04-11</td>
+      <td>难度</td>
+      <td>87min</td>
+      <td>103/153</td>
+      <td>大悦城 Luna</td>
+      <td>5.9 保持手感</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>2026-04-03</td>
+      <td>难度</td>
+      <td>84min</td>
+      <td>100/148</td>
+      <td>大悦城 Luna</td>
+      <td>保持训练状态</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>2026-03-27</td>
+      <td>抱石 + 难度</td>
+      <td>--</td>
+      <td>--</td>
+      <td>顽攀西湖</td>
+      <td><strong>新馆体验，5.8 完成，V1-V2 有挑战</strong></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2026-03-17</td>
+      <td>抱石</td>
+      <td>107min</td>
+      <td>--</td>
+      <td>Luna 城西</td>
+      <td><strong>V3 蓝色/紫色突破</strong> ✅</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2026-03-14</td>
+      <td>难度</td>
+      <td>132min</td>
+      <td>--</td>
+      <td>大悦城 Luna</td>
+      <td>5.9 短线路轻松完成</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2026-03-11</td>
+      <td>抱石</td>
+      <td>189min</td>
+      <td>105/147</td>
+      <td>Luna 城西</td>
+      <td>V2 全部攻克 (4 条)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2026-03-07</td>
+      <td>难度</td>
+      <td>105min</td>
+      <td>106/140</td>
+      <td>Luna 大悦城</td>
+      <td>发现腿部发力技巧</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2026-03-04</td>
+      <td>抱石</td>
+      <td>77min</td>
+      <td>101/138</td>
+      <td>Luna 城西</td>
+      <td>指力瓶颈显现</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2026-02-26</td>
+      <td>难度</td>
+      <td>100min</td>
+      <td>96/143</td>
+      <td>Luna 大悦城</td>
+      <td>20m 线路爬到一半</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2026-02-23</td>
+      <td>抱石</td>
+      <td>97min</td>
+      <td>101/133</td>
+      <td>Luna 城西</td>
+      <td>V1-V2 稳定</td>
+    </tr>
+  </tbody>
+</table>
+<hr class="divider">
+<h2>📝 详细训练记录</h2>
+<hr class="divider">
+<h3>2026-05-20 (周二) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Indoor Climbing)\
+<strong>📊 Garmin</strong>: 1h 58min | 平均 108 BPM | 最大 160 BPM | 613 kcal | 爬升 115m
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>颜色</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>---</td>
+      <td>--</td>
+      <td>------</td>
+      <td>----------</td>
+    </tr>
+    <tr>
+      <td>5.9</td>
+      <td>绿色</td>
+      <td>✅ 完成</td>
+      <td>感觉顺畅很多</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>黄色</td>
+      <td>✅ 完成</td>
+      <td>还算轻松，左脚还需练习</td>
+    </tr>
+    <tr>
+      <td>难度</td>
+      <td>颜色</td>
+      <td>完成情况</td>
+      <td>备注</td>
+    </tr>
+    <tr>
+      <td>-----</td>
+      <td>--</td>
+      <td>-------</td>
+      <td>-----------------</td>
+    </tr>
+    <tr>
+      <td>5.10a</td>
+      <td>橙色</td>
+      <td>⚠️ 接近完成</td>
+      <td>最后费手，需调整</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>蓝色</td>
+      <td>⚠️ 未完成</td>
+      <td>最后上不去</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>红色</td>
+      <td>⚠️ 进步中</td>
+      <td>调整后可再高一点</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>紫色</td>
+      <td>⚠️ 接近完成</td>
+      <td>top点需再思考</td>
+    </tr>
+    <tr>
+      <td>5.10c</td>
+      <td>绿色</td>
+      <td>⚠️ 未完成</td>
+      <td>卡在15m处，没想好怎么过</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>训练时长</strong>: 1 小时 58 分钟</li>
+  <li><strong>技术进步</strong>: 5.9 绿色线顺畅完成，5.10b 黄色线保持状态</li>
+  <li><strong>待改进</strong>: 5.10a 橙色最后发力、5.10c 绿色侧拉动作</li>
+  <li><strong>整体感受</strong>: 115m 爬升量充足，继续攻克 5.10b/c 难点</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-18 (周日) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Indoor Climbing)\
+<strong>📊 Garmin</strong>: 1h 50min | 平均 100 BPM | 最大 159 BPM | 508 kcal | 爬升 96m
+
+#### ✅ 进展</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>颜色</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.10b</td>
+      <td>蓝色</td>
+      <td>⚠️ 进步中</td>
+      <td>过了之前换脚难点，上部指力不足</td>
+    </tr>
+    <tr>
+      <td>5.10a</td>
+      <td>橙色</td>
+      <td>⚠️ 进步中</td>
+      <td>中间发力优化，最后手劲不足</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>紫色</td>
+      <td>⚠️ 接近完成</td>
+      <td>top点仍未找到方法</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>白色</td>
+      <td>⚠️ 有挑战</td>
+      <td>找到另一个knee bar点</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>训练重点</strong>: 5.10 难度线路练习</li>
+  <li><strong>技术进步</strong>: 换脚技巧、knee bar 应用有进步</li>
+  <li><strong>待改进</strong>: 指力和手劲不足，需要针对性训练</li>
+  <li><strong>整体感受</strong>: 保持状态，继续努力</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-16 (周五) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Indoor Climbing)\
+<strong>📊 Garmin</strong>: 2h 23min | 平均 92 BPM | 最大 153 BPM | 576 kcal | 爬升 132m
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>颜色</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-----</td>
+      <td>--</td>
+      <td>------</td>
+      <td>----------</td>
+    </tr>
+    <tr>
+      <td>5.10a</td>
+      <td>橙色</td>
+      <td>✅ 完成</td>
+      <td>和老婆一起爬</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>黄色</td>
+      <td>✅ 优化完成</td>
+      <td>轻松不少，有些小优化</td>
+    </tr>
+    <tr>
+      <td>难度</td>
+      <td>颜色</td>
+      <td>完成情况</td>
+      <td>备注</td>
+    </tr>
+    <tr>
+      <td>-----</td>
+      <td>--</td>
+      <td>-------</td>
+      <td>-----------------</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>紫色</td>
+      <td>⚠️ 接近完成</td>
+      <td>几乎onsight，top点需动态</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>白色</td>
+      <td>⚠️ 有挑战</td>
+      <td>感觉有点难</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>突破</strong>: 5.10a 橙色 ✅、5.10b 黄色优化 ✅</li>
+  <li><strong>进展</strong>: 5.10b 黄色轻松不少，beta有优化</li>
+  <li><strong>卡点</strong>: 紫色5.10b top点需小发力，没找到合适姿势</li>
+  <li><strong>下一步目标</strong>: 蓝色 5.10b、紫色的 5.10b</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-15 (周四) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Indoor Climbing)\
+<strong>📊 Garmin</strong>: 32 分钟 | 平均 99 BPM | 最大 149 BPM | 165 kcal | 爬升 35m
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>颜色</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-----</td>
+      <td>--</td>
+      <td>----</td>
+      <td>----</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>黄色</td>
+      <td>✅ 完成</td>
+      <td>临时小爬</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>训练类型</strong>: 临时小爬，时间较短</li>
+  <li><strong>突破</strong>: 5.10b 黄色完成 ✅</li>
+  <li><strong>整体感受</strong>: 保持状态</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-14 (周三) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 49 分钟 | 平均 110 BPM | 最大 151 BPM
+
+#### 📋 训练内容</p>
+<ul>
+  <li>短线练习</li>
+  <li>练习旗式动作 — 感觉有用但不太会用</li>
+</ul>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>颜色</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-----</td>
+      <td>--</td>
+      <td>----</td>
+      <td>--------------</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>黄色</td>
+      <td>✅ 新过</td>
+      <td>中间难点换了 beta 通过</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>5.10b 黄色</strong> — 过了中间难点后，卡在顶部</li>
+  <li><strong>训练时长</strong>: 49 分钟（短线练习）</li>
+  <li><strong>技术进步</strong>: 旗式动作有感觉但还需练习</li>
+  <li><strong>突破</strong>: 5.10b 黄色中间难点换 beta 过了</li>
+  <li><strong>待攻</strong>: 5.10b 黄色顶部难点，需调整重心</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-13 (周二) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)
+<strong>📊 Garmin</strong>: 170 分钟 | 平均 105 BPM | 最大 156 BPM
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>颜色</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>---</td>
+      <td>--</td>
+      <td>----</td>
+      <td>----</td>
+    </tr>
+    <tr>
+      <td>5.9</td>
+      <td>橙色</td>
+      <td>✅ 完成</td>
+      <td>热身线路</td>
+    </tr>
+    <tr>
+      <td>5.8</td>
+      <td>矮线</td>
+      <td>✅ 完成</td>
+      <td>收尾线路</td>
+    </tr>
+    <tr>
+      <td>难度</td>
+      <td>颜色</td>
+      <td>尝试次数</td>
+      <td>卡点位置</td>
+      <td>问题分析</td>
+    </tr>
+    <tr>
+      <td>------</td>
+      <td>--</td>
+      <td>----</td>
+      <td>-------</td>
+      <td>----------</td>
+    </tr>
+    <tr>
+      <td>5.10a</td>
+      <td>橙色</td>
+      <td>2 次</td>
+      <td>中间/最后5点</td>
+      <td>选路错误、手无力</td>
+    </tr>
+    <tr>
+      <td>5.10b</td>
+      <td>黄色</td>
+      <td>4 次</td>
+      <td>中间难点</td>
+      <td>能力暂不足，暂时放弃</td>
+    </tr>
+    <tr>
+      <td>5.10c?</td>
+      <td>绿色</td>
+      <td>1 次</td>
+      <td>15m 侧拉处</td>
+      <td>侧拉不敢做、手无力</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li>尝试剩余 3 条 5.10b 线路</li>
+  <li>练习旗式动作</li>
+  <li><strong>训练时长</strong>: 约 2 小时 50 分钟</li>
+  <li><strong>主要进展</strong>: 5.9 热身轻松完成</li>
+  <li><strong>挑战点</strong>: 5.10a 选路错误、5.10b 能力不足、5.10c 侧拉不敢做</li>
+  <li><strong>整体感受</strong>: 5.10 难度开始遇到瓶颈，需要针对性练习</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-11 (周日) - 室内攀岩馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)
+<strong>📍 地点备注</strong>: 未佩戴手表，专注技巧训练
+
+#### ✅ 尝试线路
+
+<strong>难度攀岩</strong>:</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>颜色</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>---</td>
+      <td>--</td>
+      <td>----</td>
+      <td>-------------------------</td>
+    </tr>
+    <tr>
+      <td>5.9</td>
+      <td>绿色</td>
+      <td>✅ 完成</td>
+      <td>开业赛 flash 线路，注意节奏和换脚后轻松完成</td>
+    </tr>
+    <tr>
+      <td>5.9</td>
+      <td>黄色</td>
+      <td>✅ 完成</td>
+      <td>更为简单</td>
+    </tr>
+    <tr>
+      <td>矮线</td>
+      <td>-</td>
+      <td>✅ 完成</td>
+      <td>基本无障碍</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>训练时长</strong>: 约 2 小时</li>
+  <li><strong>关键进步</strong>: 节奏控制和换脚意识明显提升</li>
+  <li><strong>难点突破</strong>: 5.9 绿色线之前周日没过，今天注意节奏后完成相对容易</li>
+  <li><strong>训练重点</strong>: 专注动作技巧而非心率数据</li>
+  <li><strong>整体感受</strong>: 5.9 难度线路稳定性增强</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-09 (周五) - 室内攀岩馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 121 分钟 | 平均 103 BPM | 最大 155 BPM
+
+#### 💡 总结</p>
+<ul>
+  <li><strong>训练时长</strong>: 2 小时 1 分钟</li>
+  <li><strong>体能状态</strong>: 耐力保持良好</li>
+  <li><strong>训练目标</strong>: 维持攀岩状态</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-04 (周日) - 室内攀岩馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 95 分钟 | 平均 102 BPM | 最大 156 BPM
+
+#### 💡 总结</p>
+<ul>
+  <li><strong>训练时长</strong>: 1 小时 35 分钟</li>
+  <li><strong>训练目标</strong>: 恢复性训练</li>
+  <li><strong>整体感受</strong>: 状态稳定</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-03 (周六) - 室内攀岩馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 91 分钟 | 平均 97 BPM | 最大 151 BPM
+
+#### 💡 总结</p>
+<ul>
+  <li><strong>训练时长</strong>: 1 小时 31 分钟</li>
+  <li><strong>训练目标</strong>: 基础训练</li>
+  <li><strong>整体感受</strong>: 保持手感</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-02 (周五) - 室内攀岩馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 86 分钟 | 平均 102 BPM | 最大 161 BPM
+
+#### 💡 总结</p>
+<ul>
+  <li><strong>训练时长</strong>: 1 小时 26 分钟</li>
+  <li><strong>训练目标</strong>: 恢复性训练</li>
+  <li><strong>整体感受</strong>: 逐步恢复中</li>
+</ul>
+<hr class="divider">
+<h3>2026-05-01 (周四) - 室内攀岩馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 192 分钟 | 平均 101 BPM | 最大 154 BPM
+
+#### 💡 总结</p>
+<ul>
+  <li><strong>训练时长</strong>: 3 小时 12 分钟</li>
+  <li><strong>训练目标</strong>: 长时间耐力训练</li>
+  <li><strong>整体感受</strong>: 耐力得到充分锻炼</li>
+</ul>
+<hr class="divider">
+<h3>2026-04-25 (周五) - 大悦城</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📍 地点备注</strong>: 大悦城开业赛
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>高度</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.9</td>
+      <td>20m</td>
+      <td>✅ 完成</td>
+      <td><strong>完攀 20m 长线路</strong></td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>训练时长</strong>: 1 小时 54 分钟</li>
+  <li><strong>里程碑</strong>: 首次完攀 20m 5.9 长线路 ✅</li>
+  <li><strong>比赛体验</strong>: 参加大悦城开业赛，积累比赛经验</li>
+  <li><strong>整体感受</strong>: 状态良好，信心提升</li>
+</ul>
+<hr class="divider">
+<h3>2026-04-22 (周二) - Golink 抱石馆</h3>
+<p><strong>🎯 训练类型</strong>: 抱石 (Bouldering)\
+<strong>📊 Garmin</strong>: 161 分钟 | 平均 77 BPM | 最大 128 BPM
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>--</td>
+      <td>------</td>
+      <td>------</td>
+    </tr>
+    <tr>
+      <td>V2</td>
+      <td>✅ 完成</td>
+      <td>完成情况良好</td>
+    </tr>
+    <tr>
+      <td>V3</td>
+      <td>⚠️ 有挑战</td>
+      <td>需要更多练习</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>动态动作</strong>: 对指力要求较高</li>
+  <li><strong>线路难度</strong>: V3 有一定挑战</li>
+  <li>加强指力训练</li>
+  <li>练习动态动作技巧</li>
+  <li>逐步尝试更多 V3 线路</li>
+</ul>
+<hr class="divider">
+<h3>2026-04-18 (周五) - 大悦城</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📍 地点备注</strong>: 大悦城 Luna 难度馆
+
+#### ✅ 尝试线路
+
+<strong>难度攀岩</strong>:</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>高度</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.10a</td>
+      <td>15-17m</td>
+      <td>⚠️ 未完成</td>
+      <td>尝试 2 条</td>
+    </tr>
+    <tr>
+      <td>5.9</td>
+      <td>15-17m</td>
+      <td>⚠️ 未完成</td>
+      <td>尝试 1 条</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>训练时长</strong>: 约 1.5 小时</li>
+  <li><strong>线路情况</strong>: 15-17m 长线路，人较多</li>
+  <li><strong>挑战点</strong>: 耐力不足，未完成线路</li>
+  <li><strong>后续计划</strong>: 25日参加新人赛，以体验为主</li>
+</ul>
+<hr class="divider">
+<h3>2026-04-11 (周五) - 大悦城</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📍 地点备注</strong>: 大悦城 Luna 难度馆
+
+#### ✅ 尝试线路
+
+<strong>难度攀岩</strong>:</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>高度</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.9</td>
+      <td>15-17m</td>
+      <td>⚠️ 接近完成</td>
+      <td>保持手感</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>训练时长</strong>: 约 1.5 小时</li>
+  <li><strong>线路情况</strong>: 15-17m 长线路</li>
+  <li><strong>训练目标</strong>: 保持攀岩手感</li>
+  <li><strong>整体感受</strong>: 状态稳定</li>
+</ul>
+<hr class="divider">
+<h3>2026-04-03 (周三) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)
+<strong>📊 Garmin</strong>: 84 分钟 | 平均 100 BPM | 最大 148 BPM
+
+#### 💡 总结</p>
+<ul>
+  <li><strong>训练时长</strong>: 1 小时 24 分钟</li>
+  <li><strong>训练目标</strong>: 保持训练状态</li>
+  <li><strong>整体感受</strong>: 状态稳定</li>
+</ul>
+<hr class="divider">
+<h3>2026-03-27 (周五) - 顽攀西湖</h3>
+<p><strong>🎯 训练类型</strong>: 抱石 + 难度 (混合训练)\
+<strong>📍 地点备注</strong>: 新馆体验
+
+#### ✅ 完成线路
+
+<strong>难度攀岩</strong>:</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>高度</th>
+      <th>完成情况</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.8</td>
+      <td>12m</td>
+      <td>✅ 完成 2 条</td>
+      <td>第二次爬轻松很多</td>
+    </tr>
+    <tr>
+      <td>5.9</td>
+      <td>12m</td>
+      <td>⚠️ 差一点</td>
+      <td>接近完成</td>
+    </tr>
+    <tr>
+      <td>难度</td>
+      <td>完成情况</td>
+      <td>备注</td>
+    </tr>
+    <tr>
+      <td>-----</td>
+      <td>------</td>
+      <td>----</td>
+    </tr>
+    <tr>
+      <td>V0</td>
+      <td>✅ 完成</td>
+      <td>还行</td>
+    </tr>
+    <tr>
+      <td>V0-V1</td>
+      <td>✅ 完成</td>
+      <td>还行</td>
+    </tr>
+    <tr>
+      <td>V1-V2</td>
+      <td>⚠️ 有挑战</td>
+      <td>感觉好难</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>新馆印象</strong>: 抱石线路偏难，线路清晰度不够</li>
+  <li><strong>难度进展</strong>: 5.8 第二次爬明显轻松，适应后进步快</li>
+  <li><strong>抱石挑战</strong>: V1-V2 开始难度跃升明显，需要适应馆内风格</li>
+  <li><strong>整体感受</strong>: 新馆线路风格与 Luna 不同，需要时间熟悉</li>
+</ul>
+<hr class="divider">
+<h3>2026-03-17 (周二) - Luna 城西抱石馆</h3>
+<p><strong>🎯 训练类型</strong>: 抱石 (恢复性训练)\
+<strong>📊 Garmin</strong>: 107 分钟 | ID: 574553809
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>线路</th>
+      <th>状态</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>蓝色 V3</td>
+      <td>✅ 新过</td>
+      <td>小动态，之前尝试过</td>
+    </tr>
+    <tr>
+      <td>紫色 V3</td>
+      <td>✅ 优化 beta</td>
+      <td>动作更流畅了</td>
+    </tr>
+    <tr>
+      <td>线路</td>
+      <td>状态</td>
+      <td>备注</td>
+    </tr>
+    <tr>
+      <td>-----</td>
+      <td>----</td>
+      <td>----</td>
+    </tr>
+    <tr>
+      <td>红色 V3</td>
+      <td>❌ 未过</td>
+      <td>继续挑战</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>主题</strong>: 恢复性训练 (30k 越野赛后恢复周)</li>
+  <li><strong>进展</strong>: V3 已有突破，蓝色和紫色都搞定了</li>
+  <li><strong>线路变化</strong>: 馆里开始改线，新线需要重新熟悉</li>
+  <li><strong>重点</strong>: 恢复周保持手感为主，不冲难度</li>
+</ul>
+<hr class="divider">
+<h3>2026-03-14 (周六) - 大悦城 Luna 难度馆</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 132 分钟 | 室内攀岩 | ID: 573477261
+
+#### ✅ 完成线路</p>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>难度</th>
+      <th>线路</th>
+      <th>高度</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5.8/5.9</td>
+      <td>7-8m 路线</td>
+      <td>7-8m</td>
+      <td>感觉轻松 ✅</td>
+    </tr>
+    <tr>
+      <td>5.9</td>
+      <td>黑色线</td>
+      <td>\~8m</td>
+      <td>最后脚点不太好踩 ⚠️</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>20m 长路线</strong> → 爬到 12m 下降 (60%)</li>
+  <li><strong>耐力</strong>: 20m 长路线比较吃耐力，目前只能爬到 12m</li>
+  <li><strong>短线路</strong>: 7-8m 路线感觉轻松</li>
+  <li><strong>技术</strong>: 黑色线最后的脚点需要注意脚法</li>
+  <li><strong>训练重点</strong>: 小臂耐力、脚法、节奏控制</li>
+</ul>
+<hr class="divider">
+<h3>2026-03-11 (周三) - Luna 城西抱石馆</h3>
+<p><strong>🎯 训练类型</strong>: 抱石 (Bouldering)\
+<strong>📊 Garmin</strong>: 189 分钟 | 平均 105 BPM | 最大 147 BPM | 890 kcal
+
+#### ✅ 完成线路
+
+<strong>V2 线路 (4 条全部攻克)</strong>:
+
+1. <strong>黑色 V2</strong> — 新过 ✅
+2. <strong>蓝色 V2 平衡线</strong> — 新过 ✅
+3. <strong>黄色 V2</strong> (蓝色旁边) — 新过 ✅
+4. <strong>绿色 V2</strong> (外面黑色) — 新过 ✅
+
+<strong>V3 线路 (2 条尝试)</strong>:
+
+1. <strong>紫色 V3</strong> — 光滑脚点，难度在摩擦力 ⚠️
+2. <strong>红色 V3</strong> — 夹角线路，需要身体折叠 ⚠️
+
+#### ❌ 未完成</p>
+<ul>
+  <li><strong>绿色 V2</strong> (旁边) — 动作不熟</li>
+  <li>蓝色 V3、红色 V3、橙色 V3、绿色 V3</li>
+  <li><strong>感觉都有机会！</strong> 💪</li>
+  <li>今天状态不错，V2 全部攻克</li>
+  <li>V3 开始有突破，紫色和红色线路已摸过</li>
+  <li>动态动作需要多练习</li>
+</ul>
+<hr class="divider">
+<h3>2026-03-07 (周六) - Luna 大悦城</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 105 分钟 | 平均 106 BPM | 最大 140 BPM | 533 kcal
+
+#### 💡 重要发现
+
+> <strong>手臂力竭后，反而能更好地练习以腿为主导的发力</strong>
+>
+> - 被迫用腿部蹬伸，而不是手臂拉拽
+> - 重心更贴近岩壁，减少手臂负担
+> - 学会用脚法调整位置，而不是伸手够点
+> - 这是提升攀爬效率的好机会！
+
+#### 📝 问题分析
+
+<strong>难度 20m 线路，爬到一半后手臂明显力竭</strong>
+
+原因分析:
+
+1. 前半段速度过快，没有合理分配体力
+2. 小臂指屈肌群耐力不足
+3. 不会在路线上找点休息调整
+
+改进方向:</p>
+<ul>
+  <li>提升小臂耐力 (悬垂训练)</li>
+  <li>学习线路阅读和节奏控制</li>
+  <li>练习在路线上调整呼吸和放松</li>
+</ul>
+<hr class="divider">
+<h3>2026-03-04 (周三) - Luna 城西抱石馆</h3>
+<p><strong>🎯 训练类型</strong>: 抱石 (Bouldering)\
+<strong>📊 Garmin</strong>: 77 分钟 | 平均 101 BPM | 最大 138 BPM | 372 kcal
+
+#### ✅ 完成情况</p>
+<ul>
+  <li><strong>V1-V2</strong>: 可完成 ✅</li>
+  <li><strong>V2-V3</strong>: 刷过 2 条 ⚠️</li>
+  <li><strong>小点抓不住，指力问题</strong> 🔴</li>
+  <li>V2-V3 线路无法完成</li>
+  <li>指力板捏握训练 (每周 2-3 次)</li>
+  <li>V2 线路重复攀爬 (建立肌肉记忆)</li>
+</ul>
+<hr class="divider">
+<h3>2026-02-26 (周四) - Luna 大悦城</h3>
+<p><strong>🎯 训练类型</strong>: 难度攀岩 (Sport Climbing)\
+<strong>📊 Garmin</strong>: 100 分钟 | 平均 96 BPM | 最大 143 BPM | 450 kcal
+
+#### ✅ 完成情况</p>
+<ul>
+  <li><strong>20m 线路</strong> — 爬到一半</li>
+  <li><strong>黑色/蓝色线</strong> — 有挑战性 ⚠️</li>
+  <li>手臂耐力不足，后半段力竭</li>
+  <li>小臂肌力依赖颜色抓握，独立抓握困难</li>
+</ul>
+<hr class="divider">
+<h3>2026-02-23 (周日) - Luna 城西抱石馆</h3>
+<p><strong>🎯 训练类型</strong>: 抱石 (Bouldering)\
+<strong>📊 Garmin</strong>: 97 分钟 | 平均 101 BPM | 最大 133 BPM | 458 kcal
+
+#### ✅ 完成情况</p>
+<ul>
+  <li><strong>V1-V2</strong>: 可完成 ✅</li>
+  <li><strong>V2-V3 线路无法完成</strong> 🔴</li>
+  <li>指力不足，小点抓握困难</li>
+  <li>稳定 V2，开始尝试 V3</li>
+</ul>
+<hr class="divider">
+<h2>🔍 问题分析与改进方案</h2>
+<h3>抱石问题</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>问题</th>
+      <th>表现</th>
+      <th>优先级</th>
+      <th>解决方案</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>指力不足</strong></td>
+      <td>小点抓握困难</td>
+      <td>🔴 高</td>
+      <td>指力板捏握训练 (每周 2-3 次)</td>
+    </tr>
+    <tr>
+      <td>小臂耐力</td>
+      <td>V3 连续动作乏力</td>
+      <td>🟡 中</td>
+      <td>连续攀爬训练</td>
+    </tr>
+    <tr>
+      <td>技术动作</td>
+      <td>动态动作控制</td>
+      <td>🟡 中</td>
+      <td>V2 线路重复攀爬</td>
+    </tr>
+    <tr>
+      <td><strong>线路适应</strong></td>
+      <td>新馆线路风格不同</td>
+      <td>🟡 中</td>
+      <td>多爬几次熟悉风格</td>
+    </tr>
+  </tbody>
+</table>
+<h3>难度攀岩问题</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>问题</th>
+      <th>表现</th>
+      <th>优先级</th>
+      <th>解决方案</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>手臂耐力不足</strong></td>
+      <td>20m+ 线路后半段力竭</td>
+      <td>🔴 高</td>
+      <td>悬垂训练、连续攀爬</td>
+    </tr>
+    <tr>
+      <td><strong>小臂肌力</strong></td>
+      <td>依赖颜色抓握，独立抓握困难</td>
+      <td>🔴 高</td>
+      <td>指力板训练</td>
+    </tr>
+    <tr>
+      <td><strong>侧拉动作</strong></td>
+      <td>不敢做侧拉，信心不足</td>
+      <td>🟡 中</td>
+      <td>练习侧拉技巧、旗式动作</td>
+    </tr>
+    <tr>
+      <td><strong>选路能力</strong></td>
+      <td>选路错误导致无法退回</td>
+      <td>🟡 中</td>
+      <td>学习线路阅读、观察他人</td>
+    </tr>
+    <tr>
+      <td>节奏控制</td>
+      <td>前半段过快，后半段无力</td>
+      <td>🟡 中</td>
+      <td>学习线路阅读</td>
+    </tr>
+    <tr>
+      <td>休息技巧</td>
+      <td>不会在路线上调整呼吸</td>
+      <td>🟡 中</td>
+      <td>练习休息点调整</td>
+    </tr>
+  </tbody>
+</table>
+<hr class="divider">
+<h2>💪 专项训练计划</h2>
+<h3>🔴 指力训练 (每周 2-3 次)</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>动作</th>
+      <th>组数</th>
+      <th>时长</th>
+      <th>间歇</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>指力板悬垂</td>
+      <td>4 组</td>
+      <td>30s</td>
+      <td>2min</td>
+    </tr>
+    <tr>
+      <td>指力板捏握</td>
+      <td>4 组</td>
+      <td>10s</td>
+      <td>90s</td>
+    </tr>
+    <tr>
+      <td>单臂悬垂 (辅助)</td>
+      <td>3 组</td>
+      <td>15s/侧</td>
+      <td>2min</td>
+    </tr>
+  </tbody>
+</table>
+<h3>🟡 小臂耐力 (每周 2 次)</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>动作</th>
+      <th>组数</th>
+      <th>次数</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>哑铃腕弯举</td>
+      <td>3 组</td>
+      <td>15 次</td>
+      <td>正向</td>
+    </tr>
+    <tr>
+      <td>反向腕弯举</td>
+      <td>3 组</td>
+      <td>15 次</td>
+      <td>反向</td>
+    </tr>
+    <tr>
+      <td>农夫行走</td>
+      <td>3 组</td>
+      <td>30s</td>
+      <td>大重量</td>
+    </tr>
+  </tbody>
+</table>
+<h3>🟢 难度耐力 (每周 1-2 次)</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>训练</th>
+      <th>内容</th>
+      <th>目标</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>连续攀爬</td>
+      <td>4-6 条线路，休息 2min</td>
+      <td>提升持续攀爬能力</td>
+    </tr>
+    <tr>
+      <td>长线路重复</td>
+      <td>同一条线路爬 3 次</td>
+      <td>建立肌肉记忆</td>
+    </tr>
+    <tr>
+      <td>限时攀爬</td>
+      <td>设定时间内完成</td>
+      <td>提升节奏控制</td>
+    </tr>
+  </tbody>
+</table>
+<hr class="divider">
+<h2>📋 训练前检查清单</h2>
+<h3>Garmin 数据检查</h3>
+<ul>
+  <li class="pending">○ 睡眠评分 &gt; 70</li>
+  <li class="pending">○ 身体电量 &gt; 60</li>
+  <li class="pending">○ 静息心率 &lt; 50 BPM</li>
+  <li class="pending">○ ACWR &lt; 1.2 (避免过度训练)</li>
+  <li class="pending">○ 小臂无明显酸痛 (自我评估 1-10 分 &lt; 5)</li>
+</ul>
+<h3>训练后恢复追踪</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>指标</th>
+      <th>目标</th>
+      <th>追踪方式</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>睡眠质量</td>
+      <td>7.5h+</td>
+      <td>Garmin 睡眠评分</td>
+    </tr>
+    <tr>
+      <td>身体电量</td>
+      <td>&gt; 60</td>
+      <td>Garmin 身体电量</td>
+    </tr>
+    <tr>
+      <td>小臂疲劳</td>
+      <td>&lt; 5/10</td>
+      <td>自我评估</td>
+    </tr>
+    <tr>
+      <td>静息心率</td>
+      <td>&lt; 50 BPM</td>
+      <td>Garmin 晨脉</td>
+    </tr>
+  </tbody>
+</table>
+<hr class="divider">
+<h2>🤖 自动化更新</h2>
+<p><strong>命令</strong>: 发送 <code>攀岩日记</code> 或 <code>更新攀岩日记</code>
+
+<strong>自动执行</strong>:
+
+1. ✅ 登录 Garmin 中国区
+2. ✅ 拉取最近 30 天攀岩活动
+3. ✅ 创建/更新日记条目
+4. ✅ 填充 Garmin 数据 (时长、心率等)
+5. ⚠️ 手动补充：地点、线路详情、训练感受
+
+<strong>脚本位置</strong>: <code>C:\Users\25646\.copaw\auto_update_climbing_diary.py</code></p>
+<hr class="divider">
+<p><em>保持记录，持续进步！</em> 🧗‍♂️💪</p>
+        </div>
+    </div>
+</body>
+</html>

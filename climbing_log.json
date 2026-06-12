@@ -1,0 +1,22 @@
+{
+  "climbs": [
+    {
+      "date": "2026-05-07",
+      "gym": "杭州攀岩馆",
+      "grade": "5.10b",
+      "type": "bouldering",
+      "notes": "第一次尝试成功",
+      "timestamp": "2026-05-07T16:10:52.384329"
+    },
+    {
+      "date": "2026-05-07",
+      "gym": "杭州攀岩馆",
+      "grade": "5.10b",
+      "type": "bouldering",
+      "notes": "第一次尝试成功",
+      "timestamp": "2026-05-07T16:11:15.866289"
+    }
+  ],
+  "projects": [],
+  "goals": []
+}

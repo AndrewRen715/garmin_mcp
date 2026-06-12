@@ -1,13 +1,13 @@
 {
-  "current_date": "2026-04-29",
-  "current_weekday": "周三",
+  "current_date": "2026-05-07",
+  "current_weekday": "周四",
   "race_info": {
     "date": "2026-07-06",
     "location": "杭州",
     "type": "Hyrox",
     "description": "8个功能性训练站点 + 8次1公里跑步",
     "weekday": "周一",
-    "days_until_race": 67
+    "days_until_race": 59
   },
   "hyrox_stations": [
     {
@@ -65,7 +65,7 @@
     "cardio_goal": "1公里跑步配速达到5:00-5:30 min/km",
     "strength_goal": "完成所有功能性站点的标准次数",
     "endurance_goal": "完成全程比赛（约1小时15分钟）",
-    "weekly_training_hours": -2
+    "weekly_training_hours": "8-10"
   },
   "weekly_plans": [
     {
